@@ -67,20 +67,4 @@ const items = ref([
   </Menubar>
 </template>
 
-<style scoped>
-#menubar,
-.item {
-  background-color: cornsilk;
-}
-.item {
-}
-.item:hover {
-  color: cornflowerblue;
-}
-</style>
-
-<style>
-.p-menubar-submenu {
-  background-color: cornsilk !important;
-}
-</style>
+<style scoped></style>
