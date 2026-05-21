@@ -2,7 +2,7 @@
 
 <template>
   <header
-    class="flex flex-row items-center justify-between h-16 px-2"
+    class="flex flex-row items-center justify-between h-32 px-2 bg-primary-500 text-primary-50"
     id="header"
   >
     <section><h2>Fox Den Con</h2></section>
@@ -15,7 +15,6 @@
 
 <style scoped>
 #header {
-  height: 8rem;
-  background-color: cornflowerblue;
+  /*background-image: ;*/
 }
 </style>

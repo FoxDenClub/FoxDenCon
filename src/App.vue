@@ -8,7 +8,7 @@ import Header from './components/Header.vue'
     <Header />
     <NavHeader />
   </nav>
-  <div class="mt-32">
+  <div class="mt-52">
     <RouterView />
   </div>
   <!--  <NavFooter />-->

@@ -27,7 +27,7 @@ const items = ref([
 </script>
 
 <template>
-  <Menubar :model="items" class="min-h-14" id="menubar">
+  <Menubar :model="items" class="min-h-16" id="menubar">
     <template #start>
       <RouterLink to="/">
         <!--        <img src="/logo.png" class="h-8" alt="Fox Den" />-->
