@@ -17,7 +17,6 @@ import Header from './components/Header.vue'
 <style>
 #app {
   padding: 0;
-  min-height: 100%;
 }
 
 .p-menubar {

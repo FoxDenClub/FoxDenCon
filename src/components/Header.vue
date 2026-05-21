@@ -15,6 +15,7 @@
 
 <style scoped>
 #header {
+  height: 8rem;
   background-color: cornflowerblue;
 }
 </style>
