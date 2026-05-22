@@ -108,11 +108,15 @@ const Theme = definePreset(Aura, {
         light: {
           root: {
             background: '{primary.100}',
+            borderRadius: '0',
+            borderColor: 'transparent',
           },
         },
         dark: {
           root: {
             background: '{primary.900}',
+            borderRadius: '0',
+            borderColor: 'transparent',
           },
         },
       },

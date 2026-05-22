@@ -8,7 +8,7 @@ import Header from './components/Header.vue'
     <Header />
     <NavHeader />
   </nav>
-  <div class="mt-52">
+  <div class="mt-52 min-xl:mx-48">
     <RouterView />
   </div>
   <!--  <NavFooter />-->
@@ -17,10 +17,5 @@ import Header from './components/Header.vue'
 <style>
 #app {
   padding: 0;
-}
-
-.p-menubar {
-  border: 0 !important;
-  border-radius: 0 !important;
 }
 </style>
