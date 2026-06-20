@@ -30,7 +30,7 @@ const items = ref([
   <Menubar :model="items" class="min-h-16" id="menubar">
     <template #start>
       <RouterLink to="/">
-        <!--        <img src="/logo.png" class="h-8" alt="Fox Den" />-->
+        <!--        <img src="/logo.png" class="h-8" alt="Home" />-->
       </RouterLink>
     </template>
     <template #item="{ item, props, hasSubmenu }">
