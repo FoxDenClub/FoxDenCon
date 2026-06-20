@@ -24,12 +24,14 @@ const items = ref([
     ],
   },
 ])
+
+const scrollToTop = () => window.scrollTo(0, 0)
 </script>
 
 <template>
   <Menubar :model="items" class="min-h-16" id="menubar">
     <template #start>
-      <RouterLink to="/">
+      <RouterLink to="/" @click.native="scrollToTop">
         <!--        <img src="/logo.png" class="h-8" alt="Home" />-->
       </RouterLink>
     </template>
@@ -45,6 +47,7 @@ const items = ref([
           :href="href"
           v-bind="props.action"
           @click="navigate"
+          @click.native="scrollToTop"
           class="item"
         >
           <span :class="item.icon" />
