@@ -3,9 +3,8 @@ import Card from 'primevue/card'
 </script>
 
 <template>
-  <h1 class="mb-8">Our Policies</h1>
   <Card>
-    <template #title>Testing</template>
+    <template #title>Our Policies</template>
     <template #content>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

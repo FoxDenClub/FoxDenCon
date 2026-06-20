@@ -2,6 +2,26 @@
 @import "tailwindcss-primeui";
 @import "primeicons/primeicons.css";
 
+@font-face {
+  font-family: "Lemon Milk";
+  src: url("/LEMONMILK-Regular.otf");
+}
+
+@font-face {
+  font-family: "Lemon Milk Light";
+  src: url("/LEMONMILK-Light.otf");
+}
+
+@font-face {
+  font-family: "Lemon Milk Medium";
+  src: url("/LEMONMILK-Medium.otf");
+}
+
+@font-face {
+  font-family: "Lemon Milk Bold";
+  src: url("/LEMONMILK-Bold.otf");
+}
+
 :root {
   font-family: Avenir, system-ui, sans-serif;
   line-height: 1.5;
@@ -34,15 +54,46 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  text-align: center;
+@media (width <= 40rem) {
+  h1, .p-card-title {
+    font-size: 1.5em !important;
+    line-height: 1.1;
+    text-align: center;
+    font-family: "Lemon Milk Bold", sans-serif;
+  }
+
+  h2 {
+    font-size: 1.25em;
+    line-height: 1.1;
+    font-family: "Lemon Milk Medium", sans-serif;
+  }
+
+  h3 {
+    font-size: 1em;
+    line-height: 1.1;
+    font-family: "Lemon Milk Light", sans-serif;
+  }
 }
 
-h2 {
-  font-size: 2em;
-  line-height: 1.1;
+@media (width > 40rem) {
+  h1, .p-card-title {
+    font-size: 2.5em !important;
+    line-height: 1.1;
+    text-align: center;
+    font-family: "Lemon Milk Bold", sans-serif;
+  }
+
+  h2 {
+    font-size: 1.25em;
+    line-height: 1.1;
+    font-family: "Lemon Milk Medium", sans-serif;
+  }
+
+  h3 {
+    font-size: 1em;
+    line-height: 1.1;
+    font-family: "Lemon Milk Light", sans-serif;
+  }
 }
 
 p {
@@ -68,9 +119,25 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+
 .card {
   padding: 2em;
 }
+
+.p-menubar {
+  opacity: 0.95;
+  font-family: "Lemon Milk Light", sans-serif;
+}
+
+.p-menubar-item-link {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.p-menubar-item-content:hover {
+  background: none !important;
+}
+
 
 #app {
   width: 100%;
@@ -79,6 +146,11 @@ button:focus-visible {
   margin: 0 auto;
   padding: 2rem;
   /*text-align: center;*/
+  --p-card-shadow: none
+}
+
+#header {
+  font-family: "Lemon Milk", sans-serif;
 }
 
 @media (prefers-color-scheme: light) {
