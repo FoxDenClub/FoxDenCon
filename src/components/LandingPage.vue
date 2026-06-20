@@ -4,11 +4,10 @@ import Image from 'primevue/image'
 </script>
 
 <template>
-  <h1 class="mb-8">Coming Soon</h1>
   <Card>
-    <template #title></template>
+    <template #title>Coming Soon</template>
     <template #content>
-      <Image src="/under-construction.jpg" />
+      <Image src="/construction.png" />
     </template>
   </Card>
 </template>
