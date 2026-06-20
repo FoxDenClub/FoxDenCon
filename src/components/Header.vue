@@ -2,11 +2,13 @@
 
 <template>
   <header
-    class="flex flex-row items-center justify-between h-32 px-2 bg-primary-900 text-primary-50"
+    class="flex flex-row flex-wrap items-center justify-between h-32 px-2 bg-primary-900 text-primary-50"
     id="header"
   >
-    <section><h1>Fox Den Con</h1></section>
-    <section class="uppercase con-info">
+    <section class="w-96 max-sm:mx-auto">
+      <h1>Fox Den Con</h1>
+    </section>
+    <section class="uppercase ml-auto con-info">
       <h2>February 19-21, 2027</h2>
       <h3>DoubleTree Denver Hotel</h3>
     </section>
