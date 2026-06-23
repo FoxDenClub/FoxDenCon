@@ -20,7 +20,7 @@ const items = ref([
       { label: 'Venue', route: '/venue' },
       { label: 'Contribute', route: '/contribute' },
       { label: 'Vending', route: '/vending' },
-      { label: 'Our Policies', route: '/our-policies' },
+      { label: 'Code of Conduct', route: '/code-of-conduct' },
     ],
   },
 ])
@@ -36,33 +36,14 @@ const scrollToTop = () => window.scrollTo(0, 0)
       </RouterLink>
     </template>
     <template #item="{ item, props, hasSubmenu }">
-      <RouterLink
-        v-if="item.route"
-        v-slot="{ href, navigate }"
-        :to="item.route"
-        custom
-      >
-        <a
-          v-ripple
-          :href="href"
-          v-bind="props.action"
-          @click="navigate"
-          @click.native="scrollToTop"
-          class="item"
-        >
+      <RouterLink v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>
+        <a v-ripple :href="href" v-bind="props.action" @click="navigate" @click.native="scrollToTop" class="item">
           <span :class="item.icon" />
           <span>{{ item.label }}</span>
           <span v-if="hasSubmenu" class="pi pi-fw pi-angle-down" />
         </a>
       </RouterLink>
-      <a
-        v-else
-        v-ripple
-        :href="item.url"
-        :target="item.target"
-        v-bind="props.action"
-        class="item"
-      >
+      <a v-else v-ripple :href="item.url" :target="item.target" v-bind="props.action" class="item">
         <span :class="item.icon" />
         <span>{{ item.label }}</span>
       </a>

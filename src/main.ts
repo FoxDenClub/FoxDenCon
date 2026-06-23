@@ -7,7 +7,7 @@ import PrimeVue from 'primevue/config'
 import Aura from '@primeuix/themes/aura'
 import { definePreset } from '@primeuix/themes'
 import About from './components/About.vue'
-import OurPolicies from './components/attend/OurPolicies.vue'
+import CodeOfConduct from './components/attend/CodeOfConduct.vue'
 import Register from './components/attend/Register.vue'
 import Travel from './components/attend/Travel.vue'
 import Contribute from './components/attend/Contribute.vue'
@@ -22,7 +22,7 @@ const routes = [
   { path: '/venue', component: Venue },
   { path: '/contribute', component: Contribute },
   { path: '/vending', component: Vending },
-  { path: '/our-policies', component: OurPolicies },
+  { path: '/code-of-conduct', component: CodeOfConduct },
 ]
 
 const router = createRouter({

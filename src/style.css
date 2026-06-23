@@ -71,6 +71,13 @@ body {
   h3 {
     font-size: 1em;
     line-height: 1.1;
+    font-family: "Lemon Milk Medium", sans-serif;
+    margin-top: 3em;
+  }
+
+  h4 {
+    font-size: 1em;
+    line-height: 1.1;
     font-family: "Lemon Milk Light", sans-serif;
   }
 }
@@ -90,6 +97,14 @@ body {
   }
 
   h3 {
+    font-size: 1em;
+    line-height: 1.1;
+    font-family: "Lemon Milk Medium", sans-serif;
+    margin-top: 3em;
+
+  }
+
+  h4 {
     font-size: 1em;
     line-height: 1.1;
     font-family: "Lemon Milk Light", sans-serif;
