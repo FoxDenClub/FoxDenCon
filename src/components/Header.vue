@@ -10,7 +10,7 @@
     </section>
     <section class="uppercase ml-auto con-info">
       <h2>February 19-21, 2027</h2>
-      <h4>DoubleTree Denver Hotel</h4>
+      <!-- <h4>DoubleTree Denver Hotel</h4> -->
     </section>
   </header>
 </template>
