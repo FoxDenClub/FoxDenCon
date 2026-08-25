@@ -153,6 +153,12 @@ button:focus-visible {
   background: none !important;
 }
 
+.p-card-title {
+  font-size: 1em !important;
+  line-height: 1.1;
+  font-family: "Lemon Milk Medium", sans-serif;
+}
+
 
 #app {
   width: 100%;
