@@ -7,8 +7,6 @@ import Card from 'primevue/card'
     <template #title></template>
     <template #content>
       <!-- TODO Banner goes here?? Or maybe he means the top nav banner -->
-      <h2>* NOT A REAL CULT *</h2>
-      <h2>Join the Cult of the Fox!</h2>
 
       <p>
         For eons the furries have toiled under the thumb of the normies. But on a casual hike through rural Egypt, our

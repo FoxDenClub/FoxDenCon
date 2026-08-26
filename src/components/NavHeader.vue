@@ -29,7 +29,7 @@ const scrollToTop = () => window.scrollTo(0, 0)
 </script>
 
 <template>
-  <Menubar :model="items" class="min-h-16" id="menubar">
+  <Menubar :model="items" class="min-h-16" id="menubar" breakpoint="1px">
     <template #start>
       <RouterLink to="/" @click.native="scrollToTop">
         <!--        <img src="/logo.png" class="h-8" alt="Home" />-->
