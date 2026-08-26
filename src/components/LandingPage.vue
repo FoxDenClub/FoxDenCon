@@ -15,12 +15,14 @@ import Card from 'primevue/card'
         what sort of ritual would attract her to our realm, however, and our three Sages disagree on how to attempt it.
         So join us and help us decide how to summon The Great Vixen!
       </p>
-      <h3>HERE'S WHAT WE NEED FROM YOU!</h3>
+      <h2 class="mt-8 text-center">HERE'S WHAT WE NEED FROM YOU!</h2>
 
-      <div class="flex flex-3 max-lg:flex-wrap mt-8">
-        <Card>
-          <template #header></template>
-          <template #title><RouterLink to="register">Register for the Summoning!</RouterLink></template>
+      <div class="flex flex-3 max-md:flex-wrap mt-8">
+        <Card class="max-w-lg max-md:mx-auto">
+          <template #header>
+            <RouterLink to="register" class="max-md:text-xl">Register for the Summoning!</RouterLink>
+          </template>
+          <template #title><img src="/icon-register.png" /></template>
           <template #content>
             <p>
               By registering for the convention you will be eligible to attend! Meet up with friends, make new ones, and
@@ -30,9 +32,9 @@ import Card from 'primevue/card'
           </template>
         </Card>
 
-        <Card>
-          <template #header></template>
-          <template #title><RouterLink to="venue">Get a Hotel Room!</RouterLink></template>
+        <Card class="max-w-lg max-md:mx-auto">
+          <template #header><RouterLink to="venue" class="max-md:text-xl">Get a Hotel Room!</RouterLink></template>
+          <template #title><img src="/icon-travel.png" /></template>
           <template #content>
             <p>
               Getting yourself a hotel room will make it easier for you to participate in events by giving you a great
@@ -42,9 +44,11 @@ import Card from 'primevue/card'
           </template>
         </Card>
 
-        <Card>
-          <template #header></template>
-          <template #title><RouterLink to="contribute">Go the Extra Mile!</RouterLink></template>
+        <Card class="max-w-lg max-md:mx-auto">
+          <template #header
+            ><RouterLink to="contribute" class="max-md:text-xl">Go the Extra Mile!</RouterLink></template
+          >
+          <template #title><img src="/icon-applications.png" /></template>
           <template #content>
             <p>
               Wanna really help usher in an era of furry prosperity? Join our special-cultist program and help make this
