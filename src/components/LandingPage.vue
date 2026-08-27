@@ -1,5 +1,16 @@
 <script setup lang="ts">
 import Card from 'primevue/card'
+import Dialog from 'primevue/dialog'
+import { ref } from 'vue'
+import SageMaggie from './sages/SageMaggie.vue'
+import SageCerwise from './sages/SageCerwise.vue'
+import SageKindra from './sages/SageKindra.vue'
+import SageTaylAndPixy from './sages/SageTaylAndPixy.vue'
+
+const maggieVisible = ref(false)
+const cerwiseVisible = ref(false)
+const kindraVisible = ref(false)
+const taylAndPixyVisible = ref(false)
 </script>
 
 <template>
@@ -67,11 +78,31 @@ import Card from 'primevue/card'
 
       <h3>Meet your Saviors! (click on them to learn more!)</h3>
       <div class="grid grid-flow-col grid-rows-2 gap-4 justify-around">
-        <div class="row-span-1 col-span-3"><img src="/maggie.png" class="max-h-96 min-w-64 mx-auto" /></div>
-        <div class="row-span-1 col-span-1"><img src="/cerwise.png" class="max-h-96 min-w-40" /></div>
-        <div class="row-span-1 col-span-1"><img src="/kindra.png" class="max-h-96 min-w-32" /></div>
-        <div class="row-span-1 col-span-1"><img src="/pixy-and-tayl.png" class="max-h-96 min-w-48" /></div>
+        <div class="row-span-1 col-span-3">
+          <img src="/maggie.png" class="max-h-96 min-w-64 mx-auto cursor-pointer" @click="maggieVisible = true" />
+        </div>
+        <div class="row-span-1 col-span-1">
+          <img src="/cerwise.png" class="max-h-96 min-w-40 cursor-pointer" @click="cerwiseVisible = true" />
+        </div>
+        <div class="row-span-1 col-span-1">
+          <img src="/kindra.png" class="max-h-96 min-w-32 cursor-pointer" @click="kindraVisible = true" />
+        </div>
+        <div class="row-span-1 col-span-1">
+          <img src="/pixy-and-tayl.png" class="max-h-96 min-w-48 cursor-pointer" @click="taylAndPixyVisible = true" />
+        </div>
       </div>
+      <Dialog v-model:visible="maggieVisible" modal dismissableMask class="max-sm:w-full md:w-3xl">
+        <SageMaggie />
+      </Dialog>
+      <Dialog v-model:visible="cerwiseVisible" modal dismissableMask class="max-sm:w-full md:w-3xl">
+        <SageCerwise />
+      </Dialog>
+      <Dialog v-model:visible="kindraVisible" modal dismissableMask class="max-sm:w-full md:w-3xl">
+        <SageKindra />
+      </Dialog>
+      <Dialog v-model:visible="taylAndPixyVisible" modal dismissableMask class="max-sm:w-full md:w-3xl">
+        <SageTaylAndPixy />
+      </Dialog>
     </template>
   </Card>
 </template>
