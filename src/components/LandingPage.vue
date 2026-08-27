@@ -79,16 +79,16 @@ const taylAndPixyVisible = ref(false)
       <h3>Meet your Saviors! (click on them to learn more!)</h3>
       <div class="grid grid-flow-col grid-rows-2 gap-4 justify-around">
         <div class="row-span-1 col-span-3">
-          <img src="/maggie.png" class="max-h-96 min-w-64 mx-auto cursor-pointer" @click="maggieVisible = true" />
+          <img src="/maggie.png" class="max-h-96 min-w-32 mx-auto cursor-pointer" @click="maggieVisible = true" />
         </div>
         <div class="row-span-1 col-span-1">
-          <img src="/cerwise.png" class="max-h-96 min-w-40 cursor-pointer" @click="cerwiseVisible = true" />
+          <img src="/cerwise.png" class="max-h-96 min-w-20 cursor-pointer" @click="cerwiseVisible = true" />
         </div>
         <div class="row-span-1 col-span-1">
-          <img src="/kindra.png" class="max-h-96 min-w-32 cursor-pointer" @click="kindraVisible = true" />
+          <img src="/kindra.png" class="max-h-96 min-w-16 cursor-pointer" @click="kindraVisible = true" />
         </div>
         <div class="row-span-1 col-span-1">
-          <img src="/pixy-and-tayl.png" class="max-h-96 min-w-48 cursor-pointer" @click="taylAndPixyVisible = true" />
+          <img src="/pixy-and-tayl.png" class="max-h-96 min-w-24 cursor-pointer" @click="taylAndPixyVisible = true" />
         </div>
       </div>
       <Dialog v-model:visible="maggieVisible" modal dismissableMask class="max-sm:w-full md:w-3xl">
