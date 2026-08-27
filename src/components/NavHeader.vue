@@ -17,9 +17,9 @@ const items = ref([
     items: [
       { label: 'Register', route: '/register' },
       { label: 'Travel', route: '/travel' },
-      { label: 'Venue', route: '/venue' },
+      // { label: 'Venue', route: '/venue' },
       { label: 'Contribute', route: '/contribute' },
-      { label: 'Vending', route: '/vending' },
+      // { label: 'Vending', route: '/vending' },
       { label: 'Code of Conduct', route: '/code-of-conduct' },
     ],
   },
