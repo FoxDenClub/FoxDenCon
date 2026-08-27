@@ -4,34 +4,20 @@ import Card from 'primevue/card'
 
 <template>
   <Card>
-    <template #title>Travel</template>
+    <template #title>TRAVEL & VENUE</template>
     <template #content>
+      <img src="/photo-hotel.jpeg" class="mx-auto" />
+      <p>Fox Den Con will be held in the beautiful DoubleTree Hotel in Denver, Colorado! The address is:</p>
+      <p>3203 Quebec St<br />Denver, CO 80207</p>
+      <img src="/photo-map.jpeg" class="mx-auto" />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Located just south of i70 on Quebec St, it’s in a great location to drive to from the highway or fly in from out
+        of state! Wanna know the best part? We’ve got a hotel block of only $119 a night! Having a room gives you a
+        great place to nap, change in and out of fursuit, and lets you stay up later without having to drive afterward!
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Wanna get into the Con Block? Simply <a href="https://reg.foxdenclub.org/">register for the convention</a> to
+        get the link to the hotel! Spaces are limited, so enlist now!
       </p>
     </template>
   </Card>

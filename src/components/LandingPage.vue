@@ -22,7 +22,9 @@ import Card from 'primevue/card'
           <template #header>
             <RouterLink to="register" class="max-md:text-xl">Register for the Summoning!</RouterLink>
           </template>
-          <template #title><img src="/icon-register.png" /></template>
+          <template #title
+            ><RouterLink to="register" class="max-md:text-xl"><img src="/icon-register.png" /></RouterLink
+          ></template>
           <template #content>
             <p>
               By registering for the convention you will be eligible to attend! Meet up with friends, make new ones, and
@@ -34,7 +36,9 @@ import Card from 'primevue/card'
 
         <Card class="max-w-lg max-md:mx-auto">
           <template #header><RouterLink to="venue" class="max-md:text-xl">Get a Hotel Room!</RouterLink></template>
-          <template #title><img src="/icon-travel.png" /></template>
+          <template #title
+            ><RouterLink to="venue" class="max-md:text-xl"><img src="/icon-travel.png" /></RouterLink
+          ></template>
           <template #content>
             <p>
               Getting yourself a hotel room will make it easier for you to participate in events by giving you a great
@@ -48,7 +52,9 @@ import Card from 'primevue/card'
           <template #header
             ><RouterLink to="contribute" class="max-md:text-xl">Go the Extra Mile!</RouterLink></template
           >
-          <template #title><img src="/icon-applications.png" /></template>
+          <template #title
+            ><RouterLink to="contribute" class="max-md:text-xl"><img src="/icon-applications.png" /></RouterLink
+          ></template>
           <template #content>
             <p>
               Wanna really help usher in an era of furry prosperity? Join our special-cultist program and help make this
@@ -60,10 +66,12 @@ import Card from 'primevue/card'
       </div>
 
       <h3>Meet your Saviors! (click on them to learn more!)</h3>
-      <p>
-        <!--picture of Maggie -->
-        <!-- picture of Sages -->
-      </p>
+      <div class="grid grid-flow-col grid-rows-2 gap-4 justify-around">
+        <div class="row-span-1 col-span-3"><img src="/maggie.png" class="max-h-96 min-w-64 mx-auto" /></div>
+        <div class="row-span-1 col-span-1"><img src="/cerwise.png" class="max-h-96 min-w-40" /></div>
+        <div class="row-span-1 col-span-1"><img src="/kindra.png" class="max-h-96 min-w-32" /></div>
+        <div class="row-span-1 col-span-1"><img src="/pixy-and-tayl.png" class="max-h-96 min-w-48" /></div>
+      </div>
     </template>
   </Card>
 </template>

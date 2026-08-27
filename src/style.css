@@ -62,20 +62,27 @@ body {
     font-family: "Lemon Milk Bold", sans-serif;
   }
 
-  h2 {
+  h2, .p-card-title {
     font-size: 1.25em;
     line-height: 1.1;
     font-family: "Lemon Milk Medium", sans-serif;
   }
 
-  h3 {
+  h3, .p-card-header {
     font-size: 1em;
     line-height: 1.1;
     font-family: "Lemon Milk Medium", sans-serif;
     margin-top: 3em;
+    text-align: center;
   }
 
   h4 {
+    font-size: 1em;
+    line-height: 1.1;
+    font-family: "Lemon Milk Medium", sans-serif;
+  }
+
+  h5 {
     font-size: 1em;
     line-height: 1.1;
     font-family: "Lemon Milk Light", sans-serif;
@@ -90,21 +97,28 @@ body {
     font-family: "Lemon Milk Bold", sans-serif;
   }
 
-  h2 {
+  h2, .p-card-title {
     font-size: 1.25em;
     line-height: 1.1;
     font-family: "Lemon Milk Medium", sans-serif;
   }
 
-  h3 {
+  h3, .p-card-header {
     font-size: 1em;
     line-height: 1.1;
     font-family: "Lemon Milk Medium", sans-serif;
     margin-top: 3em;
+    text-align: center;
 
   }
 
   h4 {
+    font-size: 1em;
+    line-height: 1.1;
+    font-family: "Lemon Milk Medium", sans-serif;
+  }
+
+  h5 {
     font-size: 1em;
     line-height: 1.1;
     font-family: "Lemon Milk Light", sans-serif;
@@ -153,12 +167,12 @@ button:focus-visible {
   background: none !important;
 }
 
-.p-card-title, .p-card-header {
-  font-size: 1em !important;
-  line-height: 1.1;
-  font-family: "Lemon Milk Medium", sans-serif;
-  text-align: center;
-}
+/*.p-card-header {*/
+/*  font-size: 1em !important;*/
+/*  line-height: 1.1;*/
+/*  font-family: "Lemon Milk Medium", sans-serif;*/
+/*  text-align: center;*/
+/*}*/
 
 
 #app {
