@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import LandingPage from './components/LandingPage.vue'
 import PrimeVue from 'primevue/config'
 import Aura from '@primeuix/themes/aura'
@@ -26,7 +26,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
   scrollBehavior(_to, _from, _savedPosition) {
     // always scroll to top

@@ -20,6 +20,7 @@ import Card from 'primevue/card'
         <Card class="max-w-lg max-md:mx-auto">
           <template #header>
             <p class="max-md:text-xl">Initiate</p>
+            <h5>$99.99</h5>
           </template>
           <template #title><img src="/icon-attending.png" class="h-72 mx-auto" /></template>
           <template #content>
@@ -38,7 +39,10 @@ import Card from 'primevue/card'
         </Card>
 
         <Card class="max-w-lg max-md:mx-auto">
-          <template #header><p class="max-md:text-xl">Adept</p></template>
+          <template #header
+            ><p class="max-md:text-xl">Adept</p>
+            <h5>$199.99</h5></template
+          >
           <template #title><img src="/icon-sponsor.png" class="h-72 mx-auto" /></template>
           <template #content>
             <p>As an Adept in the Cult of the Fox you will receive:</p>
@@ -56,7 +60,10 @@ import Card from 'primevue/card'
         </Card>
 
         <Card class="max-w-lg max-md:mx-auto">
-          <template #header><p class="max-md:text-xl">Elder</p></template>
+          <template #header
+            ><p class="max-md:text-xl">Elder</p>
+            <h5>$399.99</h5></template
+          >
           <template #title><img src="/icon-patron.png" class="h-72 mx-auto" /></template>
           <template #content>
             <p>As an adept you'll receive:</p>

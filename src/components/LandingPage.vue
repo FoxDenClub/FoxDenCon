@@ -48,7 +48,7 @@ const taylAndPixyVisible = ref(false)
         <Card class="max-w-lg max-md:mx-auto">
           <template #header><RouterLink to="venue" class="max-md:text-xl">Get a Hotel Room!</RouterLink></template>
           <template #title
-            ><RouterLink to="venue" class="max-md:text-xl"><img src="/icon-travel.png" /></RouterLink
+            ><RouterLink to="travel" class="max-md:text-xl"><img src="/icon-travel.png" /></RouterLink
           ></template>
           <template #content>
             <p>
