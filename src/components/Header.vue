@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Socials from './Socials.vue'
+</script>
 
 <template>
   <header
@@ -13,6 +15,7 @@
       <h4>DoubleTree Denver Hotel</h4>
     </section>
   </header>
+  <section class="bg-primary-900 text-primary-50 ml-auto text-right h-8"><Socials /></section>
 </template>
 
 <style scoped>

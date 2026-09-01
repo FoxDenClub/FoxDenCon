@@ -8,7 +8,7 @@ import Header from './components/Header.vue'
     <Header />
     <NavHeader />
   </nav>
-  <div class="mt-56 min-xl:mx-48 min-2xl:mx-72">
+  <div class="mt-64 min-xl:mx-48 min-2xl:mx-72">
     <div class="ml-4">
       <h2>* NOT A REAL CULT *</h2>
       <h2 class="mt-4">Join the Cult of the Fox!</h2>
