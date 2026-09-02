@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <img src="/cerwise.png" class="max-h-96 mx-auto" />
+  <img src="/cerwise.webp" alt="Sage Cerwise" class="max-h-96 mx-auto" />
   <h2 id="cerwise" class="text-center">Cerwise, the Deer</h2>
   <h5 class="text-center">The Sage of Our History</h5>
   <p>
