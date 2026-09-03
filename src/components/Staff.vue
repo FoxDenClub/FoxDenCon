@@ -22,7 +22,7 @@ import Card from 'primevue/card'
           <h5>Convention Vice Chair</h5>
         </div>
         <div>
-          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
+          <img src="/staff/Michi.png" class="w-64 mx-auto" />
           <h3>Michi Lumin</h3>
           <h5>Convention Assistant Vice Chair</h5>
         </div>
