@@ -18,15 +18,24 @@ import Card from 'primevue/card'
         <div class="row-span-1 col-span-4">
           <h4>DJs</h4>
           <p>
-            Can you spin music? Perhaps you can make it with instruments or with your voice? Apply to help entertain
-            people at the nightly dances!
-          </p>
-          <p>
+            Can you spin Music? Let's get people dancing!
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSduDRq8Qh4PYxTPa7PBGiuxwFtaUBiluMj_v9fuReWV8yJeaw/viewform"
               target="_blank"
-              >Apply Here</a
+              >Apply to get spinning at the nightly dances!</a
             >
+          </p>
+        </div>
+        <div class="row-span-1 col-span-1"><img src="/icon-dj.png" /></div>
+        <div class="row-span-1 col-span-4">
+          <h4>Musicians</h4>
+          <p>
+            Are you a musician looking to perform in a concert or perhaps live during one of our nightly dances?
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdk5Y-dmU7aW7Tisos5kzJKzhAd_3MQAqBrPvQAKQOenjWNbg/viewform?usp=dialog"
+              target="_blank"
+              >Apply to play at the con!
+            </a>
           </p>
         </div>
         <div class="row-span-1 col-span-1"><img src="/icon-artists.png" /></div>
