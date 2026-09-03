@@ -54,7 +54,7 @@ import Card from 'primevue/card'
           <h5>Vending Co-Director</h5>
         </div>
         <div>
-          <img src="" class="w-64 mx-auto" />
+          <img src="/staff/Liam.jpg" class="w-64 mx-auto" />
           <h3>Liam</h3>
           <h5>Board Member</h5>
           <h5>Vending Co-Director</h5>
