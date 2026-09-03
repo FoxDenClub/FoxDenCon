@@ -22,7 +22,7 @@ import Card from 'primevue/card'
             <p class="max-md:text-xl">Initiate</p>
             <h5>$99.99</h5>
           </template>
-          <template #title><img src="/icon-attending.png" class="h-72 mx-auto" /></template>
+          <template #title><img src="/icon-attending.webp" alt="Initiate Tier Icon" class="h-72 mx-auto" /></template>
           <template #content>
             <p>As an initiate of the Cult of the Fox you receive:</p>
             <ul class="list-disc">
@@ -43,7 +43,7 @@ import Card from 'primevue/card'
             ><p class="max-md:text-xl">Adept</p>
             <h5>$199.99</h5></template
           >
-          <template #title><img src="/icon-sponsor.png" class="h-72 mx-auto" /></template>
+          <template #title><img src="/icon-sponsor.webp" alt="Adept Tier Icon" class="h-72 mx-auto" /></template>
           <template #content>
             <p>As an Adept in the Cult of the Fox you will receive:</p>
             <ul class="list-disc">
@@ -64,7 +64,7 @@ import Card from 'primevue/card'
             ><p class="max-md:text-xl">Elder</p>
             <h5>$399.99</h5></template
           >
-          <template #title><img src="/icon-patron.png" class="h-72 mx-auto" /></template>
+          <template #title><img src="/icon-patron.webp" alt="Elder Tier Icon" class="h-72 mx-auto" /></template>
           <template #content>
             <p>As an adept you'll receive:</p>
             <ul class="list-disc">

@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <img src="/pixy-and-tayl.png" class="max-h-96 mx-auto" />
+  <img src="/pixy-and-tayl.webp" alt="Sages Tayl and Pixy" class="max-h-96 mx-auto" />
   <h2 class="text-center">Tayl and Pixy</h2>
   <h5 class="text-center">Twin Sages of The Arts</h5>
   <p>

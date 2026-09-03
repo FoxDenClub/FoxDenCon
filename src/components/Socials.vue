@@ -3,22 +3,58 @@
 <template>
   <ul>
     <li>
-      <a href="https://x.com/foxdencon" target="_blank"><i class="pi pi-twitter" /></a>
+      <a
+        href="https://x.com/foxdencon"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Fox Den Con on X (Twitter)"
+        ><i class="pi pi-twitter"
+      /></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/profile.php?id=61588645319249" target="_blank"><i class="pi pi-facebook" /></a>
+      <a
+        href="https://www.facebook.com/profile.php?id=61588645319249"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Fox Den Con on Facebook"
+        ><i class="pi pi-facebook"
+      /></a>
     </li>
     <li>
-      <a href="https://www.youtube.com/@FOXDENCON" target="_blank"><i class="pi pi-youtube" /></a>
+      <a
+        href="https://www.youtube.com/@FOXDENCON"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Fox Den Con on YouTube"
+        ><i class="pi pi-youtube"
+      /></a>
     </li>
     <li>
-      <a href="https://bsky.app/profile/foxdencon.bsky.social" target="_blank"><i class="pi pi-bell" /></a>
+      <a
+        href="https://bsky.app/profile/foxdencon.bsky.social"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Fox Den Con on Bluesky"
+        ><i class="pi pi-bell"
+      /></a>
     </li>
     <li>
-      <a href="https://www.instagram.com/fox_den_con/" target="_blank"><i class="pi pi-instagram" /></a>
+      <a
+        href="https://www.instagram.com/fox_den_con/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Fox Den Con on Instagram"
+        ><i class="pi pi-instagram"
+      /></a>
     </li>
     <li>
-      <a href="https://t.me/foxdencon" target="_blank"><i class="pi pi-telegram" /></a>
+      <a
+        href="https://t.me/foxdencon"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Fox Den Con on Telegram"
+        ><i class="pi pi-telegram"
+      /></a>
     </li>
   </ul>
 </template>

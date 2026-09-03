@@ -15,14 +15,14 @@ import Vending from './components/attend/Vending.vue'
 import Venue from './components/attend/Venue.vue'
 
 const routes = [
-  { path: '/', component: LandingPage },
-  { path: '/about', component: About },
-  { path: '/register', component: Register },
-  { path: '/travel', component: Travel },
-  { path: '/venue', component: Venue },
-  { path: '/contribute', component: Contribute },
-  { path: '/vending', component: Vending },
-  { path: '/code-of-conduct', component: CodeOfConduct },
+  { path: '/', component: LandingPage, meta: { title: 'Home' } },
+  { path: '/about', component: About, meta: { title: 'About' } },
+  { path: '/register', component: Register, meta: { title: 'Register' } },
+  { path: '/travel', component: Travel, meta: { title: 'Travel & Hotel' } },
+  { path: '/venue', component: Venue, meta: { title: 'Venue' } },
+  { path: '/contribute', component: Contribute, meta: { title: 'Contribute' } },
+  { path: '/vending', component: Vending, meta: { title: 'Vending' } },
+  { path: '/code-of-conduct', component: CodeOfConduct, meta: { title: 'Code of Conduct' } },
 ]
 
 const router = createRouter({
@@ -32,6 +32,11 @@ const router = createRouter({
     // always scroll to top
     return { top: 0 }
   },
+})
+
+router.afterEach((to) => {
+  const pageTitle = to.meta.title as string | undefined
+  document.title = pageTitle && pageTitle !== 'Home' ? `${pageTitle} | FoxDenCon` : 'FoxDenCon'
 })
 
 const Theme = definePreset(Aura, {

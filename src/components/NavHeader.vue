@@ -24,20 +24,13 @@ const items = ref([
     ],
   },
 ])
-
-const scrollToTop = () => window.scrollTo(0, 0)
 </script>
 
 <template>
   <Menubar :model="items" class="min-h-16" id="menubar" breakpoint="1px">
-    <template #start>
-      <RouterLink to="/" @click.native="scrollToTop">
-        <!--        <img src="/logo.png" class="h-8" alt="Home" />-->
-      </RouterLink>
-    </template>
     <template #item="{ item, props, hasSubmenu }">
       <RouterLink v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>
-        <a v-ripple :href="href" v-bind="props.action" @click="navigate" @click.native="scrollToTop" class="item">
+        <a v-ripple :href="href" v-bind="props.action" @click="navigate" class="item">
           <span :class="item.icon" />
           <span>{{ item.label }}</span>
           <span v-if="hasSubmenu" class="pi pi-fw pi-angle-down" />

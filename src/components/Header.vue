@@ -12,7 +12,7 @@ import Socials from './Socials.vue'
     </section>
     <section class="uppercase ml-auto con-info">
       <h2>February 19th - 21st, 2027</h2>
-      <h4>DoubleTree Denver Hotel</h4>
+      <h3 class="!mt-0 !text-right">DoubleTree Denver Hotel</h3>
     </section>
   </header>
   <section class="bg-primary-900 text-primary-50 ml-auto text-right h-8"><Socials /></section>

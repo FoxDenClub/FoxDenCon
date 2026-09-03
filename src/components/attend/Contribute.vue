@@ -6,7 +6,7 @@ import Card from 'primevue/card'
   <Card>
     <template #title>Contribute</template>
     <template #content>
-      <h4 class="text-center">== Please note these applications are not quite yet available, check back soon! ==</h4>
+      <h3 class="text-center !mt-4">== Please note these applications are not quite yet available, check back soon! ==</h3>
       <p>
         Ready to help make the best darn event possible! We can only do it because of amazing volunteers putting their
         best work into it! In fact, every single staff member is a volunteer, from the people checking badges to The
@@ -14,7 +14,7 @@ import Card from 'primevue/card'
         categories for which we need volunteers!
       </p>
       <div class="grid grid-flow-row grid-cols-5 gap-4 gap-y-8 justify-around mt-16">
-        <div class="row-span-1 col-span-1"><img src="/icon-dj.png" /></div>
+        <div class="row-span-1 col-span-1"><img src="/icon-dj.webp" alt="DJs and Musicians Icon" /></div>
         <div class="row-span-1 col-span-4">
           <h4>DJs and Musicians</h4>
           <p>
@@ -22,7 +22,7 @@ import Card from 'primevue/card'
             people at the nightly dances!
           </p>
         </div>
-        <div class="row-span-1 col-span-1"><img src="/icon-artists.png" /></div>
+        <div class="row-span-1 col-span-1"><img src="/icon-artists.webp" alt="Artists Icon" /></div>
         <div class="row-span-1 col-span-4">
           <h4>Artists</h4>
           <p>
@@ -30,7 +30,7 @@ import Card from 'primevue/card'
             so help us make it a beautiful event while keeping everything furry-made!
           </p>
         </div>
-        <div class="row-span-1 col-span-1"><img src="/icon-panels.png" /></div>
+        <div class="row-span-1 col-span-1"><img src="/icon-panels.webp" alt="Panelists and Events Icon" /></div>
         <div class="row-span-1 col-span-4">
           <h4>Panelists and Events</h4>
           <p>
@@ -38,7 +38,7 @@ import Card from 'primevue/card'
             fun event in mind or a panel you’d like to run, we’d love to have you!
           </p>
         </div>
-        <div class="row-span-1 col-span-1"><img src="/icon-dancers.png" /></div>
+        <div class="row-span-1 col-span-1"><img src="/icon-dancers.webp" alt="Dancers Icon" /></div>
         <div class="row-span-1 col-span-4">
           <h4>Dancers</h4>
           <p>
@@ -46,12 +46,12 @@ import Card from 'primevue/card'
             Head-to-Head Dance-off!
           </p>
         </div>
-        <div class="row-span-1 col-span-1"><img src="/icon-dealers.png" /></div>
+        <div class="row-span-1 col-span-1"><img src="/icon-dealers.webp" alt="Dealers Icon" /></div>
         <div class="row-span-1 col-span-4">
           <h4>Dealers</h4>
           <p>Looking to sell some Merch or perhaps draw some art in the Artist Alley? This is the place to do it!</p>
         </div>
-        <div class="row-span-1 col-span-1"><img src="/icon-staff.png" /></div>
+        <div class="row-span-1 col-span-1"><img src="/icon-staff.webp" alt="General Staff Icon" /></div>
         <div class="row-span-1 col-span-4">
           <h4>General Staff</h4>
           <p>

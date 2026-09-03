@@ -31,10 +31,11 @@ const taylAndPixyVisible = ref(false)
       <div class="flex flex-3 max-md:flex-wrap mt-8">
         <Card class="max-w-lg max-md:mx-auto">
           <template #header>
-            <RouterLink to="register" class="max-md:text-xl">Register for the Summoning!</RouterLink>
+            <RouterLink to="/register" class="max-md:text-xl">Register for the Summoning!</RouterLink>
           </template>
           <template #title
-            ><RouterLink to="register" class="max-md:text-xl"><img src="/icon-register.png" /></RouterLink
+            ><RouterLink to="/register" class="max-md:text-xl"
+              ><img src="/icon-register.webp" alt="Register Icon" /></RouterLink
           ></template>
           <template #content>
             <p>
@@ -46,9 +47,10 @@ const taylAndPixyVisible = ref(false)
         </Card>
 
         <Card class="max-w-lg max-md:mx-auto">
-          <template #header><RouterLink to="venue" class="max-md:text-xl">Get a Hotel Room!</RouterLink></template>
+          <template #header><RouterLink to="/travel" class="max-md:text-xl">Get a Hotel Room!</RouterLink></template>
           <template #title
-            ><RouterLink to="travel" class="max-md:text-xl"><img src="/icon-travel.png" /></RouterLink
+            ><RouterLink to="/travel" class="max-md:text-xl"
+              ><img src="/icon-travel.webp" alt="Travel and Hotel Icon" /></RouterLink
           ></template>
           <template #content>
             <p>
@@ -61,10 +63,11 @@ const taylAndPixyVisible = ref(false)
 
         <Card class="max-w-lg max-md:mx-auto">
           <template #header
-            ><RouterLink to="contribute" class="max-md:text-xl">Go the Extra Mile!</RouterLink></template
+            ><RouterLink to="/contribute" class="max-md:text-xl">Go the Extra Mile!</RouterLink></template
           >
           <template #title
-            ><RouterLink to="contribute" class="max-md:text-xl"><img src="/icon-applications.png" /></RouterLink
+            ><RouterLink to="/contribute" class="max-md:text-xl"
+              ><img src="/icon-applications.webp" alt="Applications and Contribute Icon" /></RouterLink
           ></template>
           <template #content>
             <p>
@@ -79,16 +82,36 @@ const taylAndPixyVisible = ref(false)
       <h3>Meet your Saviors! (click on them to learn more!)</h3>
       <div class="grid grid-flow-col grid-rows-2 gap-4 justify-around">
         <div class="row-span-1 col-span-3">
-          <img src="/maggie.png" class="max-h-96 min-w-32 mx-auto cursor-pointer" @click="maggieVisible = true" />
+          <img
+            src="/maggie.webp"
+            alt="Sage Maggie"
+            class="max-h-96 min-w-32 mx-auto cursor-pointer"
+            @click="maggieVisible = true"
+          />
         </div>
         <div class="row-span-1 col-span-1">
-          <img src="/cerwise.png" class="max-h-96 min-w-20 cursor-pointer" @click="cerwiseVisible = true" />
+          <img
+            src="/cerwise.webp"
+            alt="Sage Cerwise"
+            class="max-h-96 min-w-20 cursor-pointer"
+            @click="cerwiseVisible = true"
+          />
         </div>
         <div class="row-span-1 col-span-1">
-          <img src="/kindra.png" class="max-h-96 min-w-16 cursor-pointer" @click="kindraVisible = true" />
+          <img
+            src="/kindra.webp"
+            alt="Sage Kindra"
+            class="max-h-96 min-w-16 cursor-pointer"
+            @click="kindraVisible = true"
+          />
         </div>
         <div class="row-span-1 col-span-1">
-          <img src="/pixy-and-tayl.png" class="max-h-96 min-w-24 cursor-pointer" @click="taylAndPixyVisible = true" />
+          <img
+            src="/pixy-and-tayl.webp"
+            alt="Sages Pixy and Tayl"
+            class="max-h-96 min-w-24 cursor-pointer"
+            @click="taylAndPixyVisible = true"
+          />
         </div>
       </div>
       <Dialog v-model:visible="maggieVisible" modal dismissableMask class="max-sm:w-full md:w-3xl">

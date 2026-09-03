@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <img src="/kindra.png" class="max-h-96 mx-auto" />
+  <img src="/kindra.webp" alt="Sage Kindra" class="max-h-96 mx-auto" />
   <h2 class="text-center">Kindra, the Bunny</h2>
   <h5 class="text-center">The Sage of Our Community</h5>
   <p>
