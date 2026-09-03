@@ -46,6 +46,11 @@ import Card from 'primevue/card'
           <img src="/staff/Vega.jpg" class="w-64 mx-auto" />
           <h3>Vega Foxwolf</h3>
           <h5>Coalition Defense Force Vice Director</h5>
+          <p>
+            <a href="https://bsky.app/profile/vegafoxwolf.bsky.social" target="_blank"
+              >https://bsky.app/profile/vegafoxwolf.bsky.social</a
+            >
+          </p>
         </div>
         <div>
           <img src="/staff/Kit.jpg" class="w-64 mx-auto" />
@@ -135,6 +140,7 @@ import Card from 'primevue/card'
           <img src="/staff/Comix.jpg" class="w-64 mx-auto" />
           <h3>Comix</h3>
           <h5>Staff Artist</h5>
+          <p><a href="https://linktr.ee/comixthesaber">https://linktr.ee/comixthesaber</a></p>
           <p>
             <a href="https://linktr.ee/comixthesaber" target="_blank">https://linktr.ee/comixthesaber</a>
           </p>
@@ -153,6 +159,12 @@ import Card from 'primevue/card'
           <img src="/staff/placeholder.png" class="w-64 mx-auto" />
           <h3>Fraye</h3>
           <h5>Medical Liason</h5>
+        </div>
+        <div>
+          <img src="/staff/Zako.jpg" class="w-64 mx-auto" />
+          <h3>Zako</h3>
+          <h5>Staff Artist</h5>
+          <p><a href="https://zakodiak.carrd.co">https://zakodiak.carrd.co</a></p>
         </div>
       </div>
     </template>
