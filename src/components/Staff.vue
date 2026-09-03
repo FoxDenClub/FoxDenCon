@@ -4,7 +4,7 @@ import Card from 'primevue/card'
 
 <template>
   <Card>
-    <template #title>Contribute</template>
+    <template #title>Staff</template>
     <template #content>
       <div class="flex flex-wrap gap-4 gap-y-16 justify-around mt-16">
         <div>
