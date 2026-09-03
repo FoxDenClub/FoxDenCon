@@ -22,7 +22,7 @@ import Card from 'primevue/card'
           <h5>Convention Vice Chair</h5>
         </div>
         <div>
-          <img src="" class="w-64 mx-auto" />
+          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
           <h3>Michi Lumin</h3>
           <h5>Convention Assistant Vice Chair</h5>
         </div>
@@ -33,7 +33,7 @@ import Card from 'primevue/card'
           <h5>AV Director</h5>
         </div>
         <div>
-          <img src="" class="w-64 mx-auto" />
+          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
           <h3>Riley Winters</h3>
           <h5>Registrar</h5>
         </div>
@@ -81,7 +81,7 @@ import Card from 'primevue/card'
           <h5>Charity Liason</h5>
         </div>
         <div>
-          <img src="" class="w-64 mx-auto" />
+          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
           <h3>Chai Fox</h3>
           <h5>Information Technology Vice Director</h5>
         </div>
@@ -92,12 +92,12 @@ import Card from 'primevue/card'
           <p><a href="https://coyote.fm" target="_blank">coyote.fm</a></p>
         </div>
         <div>
-          <img src="" class="w-64 mx-auto" />
+          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
           <h3>Senri</h3>
           <h5>Dance Coordination Co-Lead</h5>
         </div>
         <div>
-          <img src="" class="w-64 mx-auto" />
+          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
           <h3>Mikaela Sno</h3>
           <h5>Dance Coordination Co-Lead</h5>
         </div>
@@ -107,12 +107,12 @@ import Card from 'primevue/card'
           <h5>Staff Artist</h5>
         </div>
         <div>
-          <img src="" class="w-64 mx-auto" />
+          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
           <h3>Calypso</h3>
           <h5>Staff Artist</h5>
         </div>
         <div>
-          <img src="" class="w-64 mx-auto" />
+          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
           <h3>Roxy</h3>
           <h5>Staff Senior Artist</h5>
         </div>
@@ -127,7 +127,7 @@ import Card from 'primevue/card'
           <h5>Dance Competition Coordinator</h5>
         </div>
         <div>
-          <img src="" class="w-64 mx-auto" />
+          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
           <h3>Rune</h3>
           <h5>Staff Artist</h5>
         </div>
@@ -145,12 +145,12 @@ import Card from 'primevue/card'
           <h5>On-Site Operations Director</h5>
         </div>
         <div>
-          <img src="" class="w-64 mx-auto" />
+          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
           <h3>Largo</h3>
           <h5>Lighting Lead</h5>
         </div>
         <div>
-          <img src="" class="w-64 mx-auto" />
+          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
           <h3>Fraye</h3>
           <h5>Medical Liason</h5>
         </div>
@@ -161,7 +161,7 @@ import Card from 'primevue/card'
 
 <style scoped>
 h3 {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
 }
