@@ -13,10 +13,12 @@ import Travel from './components/attend/Travel.vue'
 import Contribute from './components/attend/Contribute.vue'
 import Vending from './components/attend/Vending.vue'
 import Venue from './components/attend/Venue.vue'
+import Staff from './components/Staff.vue'
 
 const routes = [
   { path: '/', component: LandingPage },
   { path: '/about', component: About },
+  { path: '/staff', component: Staff },
   { path: '/register', component: Register },
   { path: '/travel', component: Travel },
   { path: '/venue', component: Venue },

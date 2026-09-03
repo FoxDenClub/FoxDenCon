@@ -16,10 +16,17 @@ import Card from 'primevue/card'
       <div class="grid grid-flow-row grid-cols-5 gap-4 gap-y-8 justify-around mt-16">
         <div class="row-span-1 col-span-1"><img src="/icon-dj.png" /></div>
         <div class="row-span-1 col-span-4">
-          <h4>DJs and Musicians</h4>
+          <h4>DJs</h4>
           <p>
             Can you spin music? Perhaps you can make it with instruments or with your voice? Apply to help entertain
             people at the nightly dances!
+          </p>
+          <p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSduDRq8Qh4PYxTPa7PBGiuxwFtaUBiluMj_v9fuReWV8yJeaw/viewform"
+              target="_blank"
+              >Apply Here</a
+            >
           </p>
         </div>
         <div class="row-span-1 col-span-1"><img src="/icon-artists.png" /></div>

@@ -10,7 +10,10 @@ const items = ref([
   },
   {
     label: 'About',
-    route: '/about',
+    items: [
+      { label: 'About', route: '/about' },
+      { label: 'Staff', route: '/staff' },
+    ],
   },
   {
     label: 'Attend',
