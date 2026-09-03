@@ -6,6 +6,7 @@ import Card from 'primevue/card'
   <Card>
     <template #title>Code of Conduct</template>
     <template #content>
+      <em>This is a first draft, we are currently reviewing the details due to community feedback.</em>
       <p>(Full code of conduct is below and must be agreed to)</p>
       <p>
         Fox Den Club and any events it hosts, such as Fox Den Con, are put on by a dedicated team of volunteers simply
@@ -123,13 +124,13 @@ import Card from 'primevue/card'
         be made by staff or in the case of emergencies.
       </p>
       <p>
-        All attendees are expected to maintain a level on hygiene that does not interfere with other’s ability to enjoy
+        All attendees are expected to maintain a level on hygiene that does not interfere with others’ ability to enjoy
         the convention. That means a daily shower at a minimum. If we can smell you: it needs to be fixed immediately.
       </p>
       <p>
-        Not items of any kind may be thrown, flown, or dropped from heights for the safety of those around. This
-        includes darts, water pistols, silly string, any other projectile. Light-than-ait ballons are not allowed in
-        convention space as they may get stuck in ventilation systems.
+        No items of any kind may be thrown, flown, or dropped from heights for the safety of those around. This includes
+        darts, water pistols, silly string, any other projectile. Lighter-than-air ballons are not allowed in convention
+        space as they may get stuck in ventilation systems.
       </p>
       <p>Sleeping in any public areas of any venue is not allowed.</p>
       <p>
