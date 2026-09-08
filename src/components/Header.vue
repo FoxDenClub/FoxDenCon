@@ -22,6 +22,9 @@ import Socials from './Socials.vue'
 #header {
   /*background-image: ;*/
 }
+h2 {
+  margin-top: 0;
+}
 .con-info {
   line-height: 1.25rem;
 }

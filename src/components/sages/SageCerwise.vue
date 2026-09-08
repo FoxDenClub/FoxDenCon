@@ -2,7 +2,7 @@
 
 <template>
   <img src="/cerwise.png" class="max-h-96 mx-auto" />
-  <h2 id="cerwise" class="text-center">Cerwise, the Deer</h2>
+  <h4 id="cerwise" class="text-center">Cerwise, the Deer</h4>
   <h5 class="text-center">The Sage of Our History</h5>
   <p>
     Cerwise represents our accomplishments, from our humble beginnings to our glorious present and beyond! He believes
@@ -15,4 +15,8 @@
   </p>
 </template>
 
-<style scoped></style>
+<style scoped>
+h4 {
+  font-size: 1.25rem;
+}
+</style>

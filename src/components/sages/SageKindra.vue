@@ -2,7 +2,7 @@
 
 <template>
   <img src="/kindra.png" class="max-h-96 mx-auto" />
-  <h2 class="text-center">Kindra, the Bunny</h2>
+  <h4 class="text-center">Kindra, the Bunny</h4>
   <h5 class="text-center">The Sage of Our Community</h5>
   <p>
     Kindra believes our best asset is each other. The furry fandom is a lovely place to be and we all take a part in
@@ -15,4 +15,8 @@
   </p>
 </template>
 
-<style scoped></style>
+<style scoped>
+h4 {
+  font-size: 1.25rem;
+}
+</style>

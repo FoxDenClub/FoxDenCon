@@ -2,7 +2,7 @@
 
 <template>
   <img src="/pixy-and-tayl.png" class="max-h-96 mx-auto" />
-  <h2 class="text-center">Tayl and Pixy</h2>
+  <h4 class="text-center">Tayl and Pixy</h4>
   <h5 class="text-center">Twin Sages of The Arts</h5>
   <p>
     Tayl and Pixy, as you can see, are twins! The Arts are such a big part of the Furry Fandom that it takes two people
@@ -14,4 +14,8 @@
   </p>
 </template>
 
-<style scoped></style>
+<style scoped>
+h4 {
+  font-size: 1.25rem;
+}
+</style>

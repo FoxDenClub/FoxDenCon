@@ -6,37 +6,36 @@ import Card from 'primevue/card'
   <Card>
     <template #title>Code of Conduct</template>
     <template #content>
-      <em>This is a first draft, we are currently reviewing the details due to community feedback.</em>
       <p>(Full code of conduct is below and must be agreed to)</p>
       <p>
         Fox Den Club and any events it hosts, such as Fox Den Con, are put on by a dedicated team of volunteers simply
-        looking to enrich the fandom and provide the club’s members with unique and memorable experiences. None of us
-        are paid enough (or at all) to deal with drama and bad actors. Don’t be the reason we have to add a rule and
-        pull your badge.
+        looking to enrich the fandom and provide the club’s members with unique and memorable experiences.
       </p>
       <p>
-        We’re all different, have different beliefs, different ideas, different views. That generally doesn’t mean it’s
-        okay to harass anyone or make your opinions anyone else’s problem. We’re all furries and we are all friends, so
-        let’s all treat each other with respect and show the outside world that we are an amazing culture to be embraced
-        with open arms.
+        This convention is intended to be a safe and welcoming environment for everyone. These rules are in place to
+        maintain the safety and comfort of all attendees. We’re all furries and we are all friends, so let’s all treat
+        each other with respect and show the outside world that we are an amazing culture to be embraced with open arms.
       </p>
       <p>
         <strong>
           By purchasing membership to Fox Den Club you agree to abide by these rules, whether you have read them or not.
-          Fox Den Club staff reserves the full right to interpretation of these rules. These rules are subject to change
-          without notice (though we will try to give notice). Fox Den Club welcomes all parties with an interest in
-          anthropomorphic animals; however, the management reserves the right to deny or revoke the membership of any
+          Fox Den Club staff reserves the full right to interpretation of these rules. These rules may be subject to
+          change without notice (though we will try to give notice). Fox Den Club welcomes all parties with an interest
+          in anthropomorphic animals; however, the management reserves the right to deny or revoke the membership of any
           individual at any time for any reason. Failure to adhere to these rules may result in your membership being
-          revoked without a refund.
+          revoked without a refund. These rules may be enforced by any staff member and any decisions by directors or
+          chairs are considered final. These rules are not all-inclusive, the rule of not interfering with the
+          operations of the club, events, and venue as well as not disrupting the experience of guests or diminishing
+          the public opinion of the furry fandom as a whole, may be interpreted by staff as deemed necessary.
         </strong>
       </p>
-      <p><em>Last Update: 3/12/2026</em></p>
+      <p><em>Last Update: 9/02/2026</em></p>
 
-      <h3>Outside of con/banworthy behavior</h3>
+      <h2>Outside of con/banworthy behavior</h2>
       <p>
         Any action that causes interference with the club operations, significant discomfort to club members/staff, or
-        affects the club&#39;s relationship with the venue, attendees, or the public at large is strictly prohibited and
-        may result in removal from the event/property and/or ban from the current event or future Fox Den Club
+        affects the club's relationship with the venue, attendees, or the public at large is strictly prohibited and may
+        result in removal from the event/property and/or ban from the current event or future Fox Den Club
         membership/events. The severity of the action will be solely determined by the club’s staff. This includes
         behavior prior to any event and not just during Fox Den Con (including before opening ceremonies and after
         closing ceremonies).
@@ -46,17 +45,17 @@ import Card from 'primevue/card'
         prosecutable by law.
       </p>
 
-      <h3>Venue Policies</h3>
+      <h2>Venue Policies</h2>
       <p>
         The venue(s) for various club events may have rules that differ with those outlined here. Members are expected
         to follow the rules of the venue in addition to those of the club.
       </p>
 
-      <h3>Badge/ID</h3>
+      <h2>Badge/ID</h2>
       <p>
         The Fox Den Club card, as well as any event badge, is provided to you as part of your membership fees but
         remains the sole property of Fox Den Club. These must be surrendered to staff if requested, if you are asked to
-        leave or removed from an event, and/or if your membership is revoked. This decision may be appealed to the
+        leave or are removed from an event, and/or if your membership is revoked. This decision may be appealed to the
         Security Director. Depending on availability, this may not be doable during an event and their decision is
         final.
       </p>
@@ -72,8 +71,16 @@ import Card from 'primevue/card'
         individuals activities at Fox Den Club events, even if the injury or damage is caused by negligence by or on the
         part of Fox Den Club.
       </p>
+      <p>
+        Event badges and Club Cards are issued only to one person and may not be shared at any time. If a badge is found
+        to be shared, the badge and membership will be revoked, and the person who was originally issued the badge as
+        well as the person wearing the shared badge will be removed from the event and club. Knowingly providing
+        transportation, housing, or enabling an individual that is banned to attend will result in a permanent ban. By
+        registering for membership in Fox Den Club you agree to allow the club to share your information with other
+        events/organizations if you are banned at Fox Den Club’s sole discretion.
+      </p>
 
-      <h3>Minors</h3>
+      <h2>Minors</h2>
       <p>Minors are defined as any member/event attendee under the age of 18.</p>
       <p>
         Minors are allowed to attend all-ages Fox Den Club events such as Fox Den Con. Unless otherwise specified,
@@ -97,7 +104,7 @@ import Card from 'primevue/card'
         a parent/guardian present.
       </p>
 
-      <h3>General</h3>
+      <h2>General</h2>
       <p>
         Please do not attend any events if you believe yourself to be carrying an infectious disease. This includes, but
         is not limited to, the flu, cold, covid, or any other upper respiratory infection. Attending while showing
@@ -106,7 +113,7 @@ import Card from 'primevue/card'
       </p>
       <p>
         Unless otherwise specified, Fox Den Club events are considered all-ages and all public areas are expected to be
-        treated as “PG.”
+        treated as “PG.” The convention space will be considered “PG-13” after 8pm.
       </p>
       <p>
         Some events may be more “PG-13” in content, like stage plays, concerts, etc. Feel free to inquire with Con Ops
@@ -114,8 +121,7 @@ import Card from 'primevue/card'
       </p>
       <p>
         Exceptions may be made for events marked with an age-specification (such as 18+ or 21+), which will require a
-        government-issued ID to verify age prior to entering. These areas will be off-limits to minors regardless of
-        parental consent or accompaniment.
+        government-issued ID to verify age prior to entering.
       </p>
       <p>Public displays of affection should be kept to those appropriate for polite company.</p>
       <p>
@@ -124,13 +130,13 @@ import Card from 'primevue/card'
         be made by staff or in the case of emergencies.
       </p>
       <p>
-        All attendees are expected to maintain a level on hygiene that does not interfere with others’ ability to enjoy
-        the convention. That means a daily shower at a minimum. If we can smell you: it needs to be fixed immediately.
+        All attendees are expected to maintain a level of hygiene that does not interfere with others’ ability to enjoy
+        the convention. Attendees in violation may be asked to leave until the issue is resolved.
       </p>
       <p>
         No items of any kind may be thrown, flown, or dropped from heights for the safety of those around. This includes
-        darts, water pistols, silly string, any other projectile. Lighter-than-air ballons are not allowed in convention
-        space as they may get stuck in ventilation systems.
+        darts, water pistols, silly string, any other projectile. Lighter-than-air balloons are not allowed in
+        convention space as they may get stuck in ventilation systems.
       </p>
       <p>Sleeping in any public areas of any venue is not allowed.</p>
       <p>
@@ -143,18 +149,6 @@ import Card from 'primevue/card'
         as necessary, but the decision of the Directors/Chair is final.
       </p>
       <p>Event spaces are open only to registered club members or visitors being escorted by staff.</p>
-      <p>
-        Event badges and Club Cards are issued only to one person and may not be shared at any time. If a badge is found
-        to be shared, the badge and membership will be revoked, and the person who was originally issued the badge as
-        well as the person wearing the shared badge will be removed from the event and club. Knowingly providing
-        transportation, housing, or enabling an individual that is banned to attend will result in a permanent ban. By
-        registering for membership in Fox Den Club you agree to allow the club to share your information with other
-        events/organizations if you are banned at Fox Den Club’s sole discretion.
-      </p>
-      <p>
-        Certain events such as the fursuit parade and dance competition may have dress requirements, such as a fursuit
-        head and no exposed skin.
-      </p>
       <p>
         Smoking and vaping are NOT PERMITTED in event spaces, hotel rooms, and outside spaces within 25 feet of any
         entrances. Smoking or vaping may be subject to prosecution, fees, or other repercussions.
@@ -170,7 +164,7 @@ import Card from 'primevue/card'
         responsibility of Fox Den Club to provide you with any necessary licensing to conduct business.
       </p>
 
-      <h3>Club Room, Signs, Room Conduct, and Room Parties</h3>
+      <h2>Club Room, Signs, Room Conduct, and Room Parties</h2>
       <p>
         The person named in the room reservation is responsible for anyone staying in the room, visiting the room, or
         passing through, and any damages that occur. Intentional and/or severe damage to hotel rooms may result in
@@ -184,23 +178,24 @@ import Card from 'primevue/card'
         of the event.
       </p>
       <p>
-        Room parties are allowed but the venue may have quiet-hours. For Fox Den Con: Quiet hours start at 10 pm, if you
-        choose to host guests during quiet times please keep in mind that loudness can strain our relationship with the
-        venue. Keeping doors open may make noise louder outside of your room, keep them open at your own risk. Outside
-        of severe cases, the club or the venue will issue a warning for noise complaints. Disturbing other hotel guests
-        may lead to expulsion from the event and possibly revoking of your Fox Den Club membership. Members hosting are
-        expected to bag all trash and clean up after any hosting events such as room parties. Most hotels will inspect a
-        room at least once per day regardless of “do not disturb” or “do not service” signage, and as a result must be
-        allowed into a room if requested.
+        Room parties are allowed but the venue may have quiet-hours. Our current venue policy requires that quiet hours
+        start at 10 pm. If you choose to host guests during quiet times please keep in mind that loudness can strain our
+        relationship with the venue. Keeping doors open may make noise louder outside of your room, keep them open at
+        your own risk. Outside of severe cases, the club or the venue will issue a warning for noise complaints.
+        Disturbing other hotel guests may lead to expulsion from the event and possibly revoking of your Fox Den Club
+        membership. Members hosting are expected to bag all trash and clean up after any hosting events such as room
+        parties. Most hotels will inspect a room at least once per day regardless of “do not disturb” or “do not
+        service” signage, and as a result must be allowed into a room if requested.
       </p>
       <p>
-        Hotel guests for Fox Den Con will have a club room available every evening on the second floor from 10pm: room
-        217. This room will have refreshments, snacks, and will allow you to hang out longer without bothering your
-        neighbors. Alcoholic beverages will be allowed but you may need to present your ID to ensure you are of drinking
-        age. Conduct in this room will be considered “PG-13” but will not allow minors below 16.
+        Attendees with a room key at Fox Den Con will have a club room available every evening on the second floor
+        starting at 10pm to 2am in room 217. This room will have refreshments, snacks, and will allow you to hang out
+        longer without bothering your neighbors. Alcoholic beverages will be allowed but you may need to present your ID
+        to ensure you are of drinking age. Conduct in this room will be considered “PG-13”. This room will not be open
+        to attendees under the age of 21.
       </p>
 
-      <h3>Lost and Found</h3>
+      <h2>Lost and Found</h2>
       <p>
         If you find anything that may be lost, please bring it to Con Ops. If you lost something, please come to Con
         Ops. If we do not currently have it, you may fill out a form with a thorough description of the item and your
@@ -209,7 +204,7 @@ import Card from 'primevue/card'
         or auctioned for charity after the event in which they were found after a minimum of 30 days.
       </p>
 
-      <h3>Dress Code</h3>
+      <h2>Dress Code</h2>
       <p>
         Collars, leashes, and harnesses may be worn, but persons cannot be led around by them in public areas as this
         creates a tripping hazard. The same applies for ropes, handcuffs, etc.
@@ -219,8 +214,11 @@ import Card from 'primevue/card'
         exposure of bare breasts, buttocks, or genitals is allowed in any of these areas. Breasts that are built into
         fursuits are acceptable if they do not have nipples showing.
       </p>
-      <p>Latex suits, pup masks, and other fetish gear are not allowed in any spaces not designated as 18+.</p>
-      <p>Fursuits are not permitted in the pool or hot tubs.</p>
+      <p>
+        Clothing must be kept within the PG/PG-13 rating of the convention. Certain Mature clothing may be worn into 18+
+        panels or by vendors of 18+ booths, provided it is covered up while in public areas.
+      </p>
+      <p>Venue policy does not allow fursuits in the pool or hot tubs.</p>
       <p>
         Hateful or provocative clothing is not allowed. This includes arm bands, shirts, fursuits, flags, or any other
         items at staff discretion.
@@ -229,12 +227,13 @@ import Card from 'primevue/card'
         Realistic prop weapons, dangerous props, or any kind of projectile firing device is not allowed. Exceptions may
         be made for specific events. If you are unsure about a prop, bring it to Con Ops for staff to inspect.
       </p>
-      <p>Gore, blood, or graphic horror is generally not allowed.</p>
+      <p>Excessive gore, blood, or graphic horror is not allowed.</p>
       <p>
-        If you are unsure, please contact the club prior to wearing or bringing anything that may cause your removal.
+        If you are unsure about your outfit or have questions about the dress code, please contact the club prior to
+        wearing or bringing anything that may be against the code of conduct.
       </p>
 
-      <h3>Harassment/Assault</h3>
+      <h2>Harassment/Assault</h2>
       <p>
         Any action that is illegal outside of any club event is still considered illegal at any club event. This
         includes any form of harassment, assault, battery, stalking, or unwelcome attention. No means no.
@@ -258,10 +257,10 @@ import Card from 'primevue/card'
       </p>
       <p>Do not touch anyone without their consent. If you are not sure about something, ask first.</p>
 
-      <h3>Weapons</h3>
+      <h2>Weapons</h2>
       <p>
-        Event attendees may not carry real weapons of any kind event spaces, regardless of any permits they may have for
-        concealed carry of such weapons. An exception may be made for sworn law enforcement officers but it must be
+        Event attendees may not carry real weapons of any kind in event spaces, regardless of any permits they may have
+        for concealed carry of such weapons. An exception may be made for sworn law enforcement officers but it must be
         approved by the Security Director prior to the event and/or prior to carrying a weapon in event space. This
         includes, but is not limited to, firearms, energy weapons, harmful sprays, edged weapons longer than 3.5”, and
         any illegal weapons like sap weapons or knuckles.
@@ -270,12 +269,12 @@ import Card from 'primevue/card'
       <p>Replicas that can’t easily be discerned, at the discretion of staff, will also not be allowed.</p>
       <p>
         Prop weapons must not be able to fire any kind of projectile. If you’d like to carry something that does, such
-        as a dart gun, you may have it “peace-bound” at Con Ops. Even if previously approved, staff may ask that you do
-        not carry a prop in event space, in which case you must immediately either return it to your room/vehicle or
+        as a dart gun, you may have it “peace-bound” at Con Ops. Even if previously approved, staff may ask that you not
+        carry a prop in event space, in which case you must immediately either return it to your room/vehicle or
         accompany the staff member to Con Ops for review. The decision of a Director is final.
       </p>
 
-      <h3>Animals/Pets</h3>
+      <h2>Animals/Pets</h2>
       <p>
         Unless otherwise specified, pets are not permitted in convention space. This includes support animals and
         therapy animals as they are not considered service animals under the Americans with Disabilities Act (ADA).
@@ -287,21 +286,21 @@ import Card from 'primevue/card'
         service animal is seen to cause disruption of any kind, report it to Con Ops immediately.
       </p>
 
-      <h3>Outside Food/Drink</h3>
+      <h2>Outside Food/Drink</h2>
       <p>
         Outside food and drink are not allowed in hotel spaces due to their liquor and foodservice licensing. Please do
         not bring outside food or drink into event spaces. Registered dealers are allowed to bring outside food and
         drink for consumption at their assigned table. Outside food and drink are allowed in the hotel’s club lounge
-        (room 217, open from 10pm) or in your own hotel rooms.
+        (room 217) or in your own hotel rooms.
       </p>
 
-      <h3>Substances</h3>
+      <h2>Substances</h2>
       <p>Marijuana is not allowed in event spaces or hotel property.</p>
       <p>The sale, distribution, or serving of alcoholic beverages to anyone under 21 is prohibited.</p>
       <p>Illegal substances are not allowed at any Fox Den Con event or venue.</p>
       <p>Violation may result in legal charges.</p>
 
-      <h3>Media, Photography, Videography</h3>
+      <h2>Media, Photography, Videography</h2>
       <p>
         All journalists and members of the press must acquire a press badge from Con Ops. These persons must be screened
         and submit their credentials and intent prior to the event. Members of the press may instead be accompanied by a
@@ -340,27 +339,25 @@ import Card from 'primevue/card'
         publication any image or recording that in the sole opinion of Fox Den Club misrepresents or defames its mark.
       </p>
 
-      <h3>Payments to Fox Den Club</h3>
-      <p>Fox Den Club accepts most major credit and debit cards and may accept cash at events.</p>
+      <h2>Payments to Fox Den Club</h2>
       <p>
-        Charge-backs that are made fore the sole purpose of avoiding payment, that are made without sufficient cause, or
-        that are made without first attempting to resolve the dispute will result in a permanent ban from the club and
-        all its events and possible legal action.
+        Fox Den Club accepts most major credit and debit cards and may accept cash at events. Charge-backs that are made
+        for the sole purpose of avoiding payment, that are made without sufficient cause, or that are made without first
+        attempting to resolve the dispute will result in a permanent ban from the club and all its events and possible
+        legal action.
       </p>
       <p>
         Please note that Fox Den Club is a 501(c)7 nonprofit organization. Donations and membership dues are generally
         not deductible from individual income taxes, consult your local tax professional for more information.
       </p>
 
-      <h3>Sales, Flyers, Signs, Solicitation</h3>
-      <p>
-        Business cards may only be placed in event space, not in public spaces like bars and hallways. Flyers, signs,
-        and similar items must be approved by club staff prior to placement.
-      </p>
+      <h2>Sales, Flyers, Signs, Solicitation</h2>
+      <p>Business cards may only be placed in event space, not in public spaces like bars and hallways.</p>
+      <p>Flyers, signs, and similar items must be approved by club staff prior to placement.</p>
       <p>No adult materials may be displayed anywhere minors may be present.</p>
       <p>Raffles or drawings are not allowed unless approved by the club.</p>
 
-      <h3>Music and Dances</h3>
+      <h2>Music and Dances</h2>
       <p>
         Portable speakers are not allowed in convention space. Live musicians must play at a level reasonable enough for
         those who do not wish to listen to be able to walk away (which may not be doable depending on the venue layout)
@@ -374,24 +371,14 @@ import Card from 'primevue/card'
         created by these glowsticks.
       </p>
 
-      <h3>Accessibility</h3>
+      <h2>Accessibility</h2>
       <p>
         Fox Den Club will happily help accommodate reasonable requests to make the event accessible to everyone. We may
-        need some time to implement special accommodations, so please contact us at least month prior to the event such
+        need some time to implement special accommodations, so please contact us at least a month prior to the event so
         that we have time to research and find solutions. This may involve the venue or outside sources, so as early as
         possible is preferred.
       </p>
-
-      <h3>Final Notes</h3>
-      <p>
-        These rules may be enforced by any staff member and any decisions by directors or chairs are considered final.
-        If you do not agree with a rule, simply do not register for membership with the Club and do not attend any club
-        events. Fox Den Club is a social club and as a result holds the sole ability to decide who does or does not
-        receive membership. These rules are put in place to protect every member of the club and generally represent a
-        worst-case scenario. These rules are not all-inclusive, the rule of not interfering with the operations of the
-        club, events, and venue as well as not disrupting the experience of guests or diminishing the public opinion of
-        the furry fandom as a whole, may be interpreted by staff as deemed necessary.
-      </p>
+      ```
     </template>
   </Card>
 </template>

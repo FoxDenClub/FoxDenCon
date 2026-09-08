@@ -4,7 +4,7 @@ import Card from 'primevue/card'
 
 <template>
   <Card>
-    <template #title><h1>Register</h1></template>
+    <template #title>Register</template>
     <template #content>
       <p>Attendance is limited, so join now!</p>
       <p>Ready to be indoctrinated? <a href="https://reg.foxdenclub.org/">Register here!</a></p>
@@ -22,8 +22,8 @@ import Card from 'primevue/card'
             <p class="max-md:text-xl">Initiate</p>
             <h5>$99.99</h5>
           </template>
-          <template #title><img src="/icon-attending.png" class="h-72 mx-auto" /></template>
           <template #content>
+            <img src="/icon-attending.png" class="h-72 mx-auto" />
             <p>As an initiate of the Cult of the Fox you receive:</p>
             <ul class="list-disc">
               <li>Entry to the Con Hotel at a discounted price of $120 a night! (until con block is full)</li>
@@ -43,8 +43,8 @@ import Card from 'primevue/card'
             ><p class="max-md:text-xl">Adept</p>
             <h5>$199.99</h5></template
           >
-          <template #title><img src="/icon-sponsor.png" class="h-72 mx-auto" /></template>
           <template #content>
+            <img src="/icon-sponsor.png" class="h-72 mx-auto" />
             <p>As an Adept in the Cult of the Fox you will receive:</p>
             <ul class="list-disc">
               <li>Everything one would get as an Initiate</li>
@@ -62,10 +62,10 @@ import Card from 'primevue/card'
         <Card class="max-w-lg max-md:mx-auto">
           <template #header
             ><p class="max-md:text-xl">Elder</p>
-            <h5>$399.99</h5></template
-          >
-          <template #title><img src="/icon-patron.png" class="h-72 mx-auto" /></template>
+            <h5>$399.99</h5>
+          </template>
           <template #content>
+            <img src="/icon-patron.png" class="h-72 mx-auto" />
             <p>As an adept you'll receive:</p>
             <ul class="list-disc">
               <li>All perks of the Initiate tier</li>
