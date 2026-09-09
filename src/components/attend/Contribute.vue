@@ -53,6 +53,7 @@ import Card from 'primevue/card'
             Wanna help fill out the schedule with fun things to do? This is the category for you! Whether you’ve got a
             fun event in mind or a panel you’d like to run, we’d love to have you!
           </p>
+          <p><a href="https://forms.gle/aky4mMTgLAThxhDF7" target="_blank">Apply here!</a></p>
         </div>
         <div class="row-span-1 col-span-1"><img src="/icon-dancers.png" /></div>
         <div class="row-span-1 col-span-4">
@@ -73,6 +74,13 @@ import Card from 'primevue/card'
           <p>
             We need all kinds of general staff! Checking badges, running supplies, all the fun stuff that makes cons
             work!
+          </p>
+          <p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdKdaGtKk8ocuQADmLT0Nn-yz_GjeKt2SreJ0sZfmdk--OApQ/viewform?usp=publish-editor"
+              target="_blank"
+              >Apply here!</a
+            >
           </p>
         </div>
       </div>
