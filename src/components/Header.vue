@@ -8,8 +8,12 @@ import Socials from './Socials.vue'
     id="header"
   >
     <section class="w-96 max-sm:mx-auto">
-      <h1>Fox Den Con</h1>
+      <h1 class="mb-0">Fox Den Con</h1>
+      <div class="ml-4 text-xs text-left">
+        <p class="text-center m-0">Join the Cult of the Fox!<br /><em>* NOT A REAL CULT *</em></p>
+      </div>
     </section>
+
     <section class="uppercase ml-auto con-info">
       <h2>February 19th - 21st, 2027</h2>
       <h4>DoubleTree Denver Hotel</h4>
@@ -22,8 +26,18 @@ import Socials from './Socials.vue'
 #header {
   /*background-image: ;*/
 }
+h1 {
+  margin-bottom: 0;
+}
 h2 {
   margin-top: 0;
+}
+h3 {
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
 }
 .con-info {
   line-height: 1.25rem;

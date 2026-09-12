@@ -8,11 +8,8 @@ import Header from './components/Header.vue'
     <Header />
     <NavHeader />
   </nav>
-  <div class="mt-64 min-xl:mx-48 min-2xl:mx-72">
-    <div class="ml-4">
-      <h4>* NOT A REAL CULT *</h4>
-      <h4 class="mt-4">Join the Cult of the Fox!</h4>
-    </div>
+
+  <div class="mt-48 min-xl:mx-48 min-2xl:mx-72">
     <RouterView />
   </div>
   <!--  <NavFooter />-->
@@ -21,5 +18,12 @@ import Header from './components/Header.vue'
 <style>
 #app {
   padding: 0;
+}
+</style>
+
+<style scoped>
+h3,
+p {
+  text-align: left;
 }
 </style>
