@@ -67,6 +67,7 @@ import Card from 'primevue/card'
         <div class="row-span-1 col-span-4">
           <h4>Dealers</h4>
           <p>Looking to sell some Merch or perhaps draw some art in the Artist Alley? This is the place to do it!</p>
+          <p><a href="/vending-policies-0_3.docx">Vending Policies</a></p>
         </div>
         <div class="row-span-1 col-span-1"><img src="/icon-staff.png" /></div>
         <div class="row-span-1 col-span-4">
