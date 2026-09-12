@@ -67,6 +67,8 @@ body {
     line-height: 1.1;
     font-family: "Lemon Milk Medium", sans-serif;
     margin-top: 3rem;
+    margin-bottom: .25rem;
+    text-align: center;
   }
 
   h3, .p-card-header {
@@ -74,6 +76,7 @@ body {
     line-height: 1.1;
     font-family: "Lemon Milk Medium", sans-serif;
     margin-top: 3em;
+    margin-bottom: .25rem;
     text-align: center;
   }
 
@@ -103,6 +106,8 @@ body {
     line-height: 1.1;
     font-family: "Lemon Milk Medium", sans-serif;
     margin-top: 3rem;
+    margin-bottom: .25rem;
+    text-align: center;
   }
 
   h3, .p-card-header {
@@ -110,6 +115,7 @@ body {
     line-height: 1.1;
     font-family: "Lemon Milk Medium", sans-serif;
     margin-top: 3em;
+    margin-bottom: .25rem;
     text-align: center;
 
   }

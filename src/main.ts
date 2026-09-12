@@ -14,6 +14,7 @@ import Contribute from './components/attend/Contribute.vue'
 import Vending from './components/attend/Vending.vue'
 import Venue from './components/attend/Venue.vue'
 import Staff from './components/Staff.vue'
+import VendingPolicies from './components/attend/VendingPolicies.vue'
 
 const routes = [
   { path: '/', component: LandingPage },
@@ -25,6 +26,7 @@ const routes = [
   { path: '/contribute', component: Contribute },
   { path: '/vending', component: Vending },
   { path: '/code-of-conduct', component: CodeOfConduct },
+  { path: '/vending-policies', component: VendingPolicies },
 ]
 
 const router = createRouter({
