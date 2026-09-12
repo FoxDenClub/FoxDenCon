@@ -146,4 +146,8 @@ h2,
 h3 {
   text-align: left;
 }
+li {
+  list-style-type: disc;
+  margin: 0.2rem 0 0.2rem 1.5rem;
+}
 </style>
