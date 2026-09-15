@@ -11,14 +11,14 @@ import Card from 'primevue/card'
       <h3>Merch Perch</h3>
       <ul>
         <li>
-          Full table – $150 for the weekend – Not including registration, up to 1 assistant,
+          Full table – $198 for the weekend – Not including registration, up to 1 assistant,
           <strong>
             including free catered breakfast for you and your assistant (if you have one) every morning (Friday,
             Saturday, Sunday).
           </strong>
         </li>
         <li>
-          Half table – $80 for the weekend – Not including registration,
+          Half table – $99 for the weekend – Not including registration,
           <strong> including free catered breakfast for you every morning (Friday, Saturday, Sunday). </strong>
         </li>
         <li>
