@@ -8,7 +8,7 @@ import Card from 'primevue/card'
     <template #content>
       <h2>Prices</h2>
 
-      <h3>Merch Perch</h3>
+      <h3>Merch Perch – all ages – 11am to 5pm</h3>
       <ul>
         <li>
           Full table – $198 for the weekend – Not including registration, up to 1 assistant,
@@ -27,12 +27,23 @@ import Card from 'primevue/card'
         </li>
       </ul>
 
-      <h3>Artist Alley</h3>
+      <h3>Artist Alley – all ages – shifts/slots vary</h3>
       <ul>
-        <li>Half table - $25 per day, $60 for the full weekend</li>
+        <li>
+          <strong>Friday and Saturday</strong>: two half-day shifts <strong>9am to 2pm</strong> and
+          <strong>3pm to 8pm</strong>
+        </li>
+        <li><strong>Sunday</strong>: one mid-morning shift <strong>11am to 4pm</strong></li>
+        <li>Half table - $25 per shift/slot</li>
       </ul>
 
-      <h2>General Vending Guidelines (Applies to both Merch Perch and Artist Alley)</h2>
+      <h3>Dealers After Dark – 18+ – 7pm to 11pm, Friday and Saturday only</h3>
+      <ul>
+        <li>Full table - $50 per night</li>
+        <li>Half table - $25 per night</li>
+      </ul>
+
+      <h2>General Vending Guidelines (Applies to all vending areas)</h2>
       <ul>
         <li>All vendors and assistants are expected to follow the general convention code of conduct.</li>
         <li>
@@ -71,28 +82,27 @@ import Card from 'primevue/card'
 
       <h2>Merchandise Guidelines</h2>
       <ul>
-        <li>No products created with the use of generative AI is allowed.</li>
+        <li>No products created with the use of generative AI are allowed.</li>
         <li>
-          The Merch Perch is a vending area intended for sales of pre-made merchandise, such as clothing, accessories,
-          pins/stickers/keychains, and other manufactured products. Artists who expect their sales to be comprised of
-          mostly this sort of product should choose to sell in the Merch Perch, even if they are also offering on the
-          spot commissions.
+          The Merch Perch is an all-ages vending area intended for sales of pre-made merchandise, such as clothing,
+          accessories, pins/stickers/keychains, and other manufactured products. Artists who expect their sales to be
+          comprised of mostly this sort of product should choose to sell in the Merch Perch, even if they are also
+          offering on the spot commissions.
         </li>
         <li>
-          The Artist Alley is a space meant for artists offering on the spot commissions, original work, prints, and
-          handmade items or artistic pieces. A small portion of manufactured products are acceptable as long as they are
-          your original work.
+          The Artist Alley is an all-ages space meant for artists offering on the spot commissions, original work,
+          prints, and handmade items or artistic pieces. A small portion of manufactured products are acceptable as long
+          as they are your original work.
         </li>
         <li>
-          The Merch Perch includes a restricted space for 18+ materials and artwork. ID check will be enforced. No adult
-          themed items can be exposed to the public view while they remain for sale. Some form of covering (bag, folder,
-          etc) must be provided for purchased 18+ items in this area so the purchaser can move freely through the
-          general vending space without exposing minors to adult work.
+          In both the Merch Perch and the Artist Alley, all adult material must be censored or kept out of sight and
+          provided only on request by verified 18+ attendees.
         </li>
         <li>
-          If less than 50% of the merchandise at a booth is 18+, then the vendor may work out of the main hall rather
-          than the restricted 18+ space, but all adult material must be censored or kept out of sight and provided only
-          on request by verified 18+ attendees.
+          Dealers After Dark is a dedicated, restricted space for 18+ materials and artwork. ID check will be enforced
+          for entry. No adult themed items can be exposed to the public view while they remain for sale. Some form of
+          covering (bag, folder, etc.) must be provided for purchased 18+ items in this area so the purchaser can move
+          freely through the general convention space without exposing minors to adult work.
         </li>
         <li>
           Vendors may not sell food or beverages, any products containing alcohol, tobacco, marijuana, illicit or
@@ -113,19 +123,22 @@ import Card from 'primevue/card'
       <h2>The Nitty Gritty</h2>
       <ul>
         <li>
-          All vendors in the Merch Perch and Artist Alley will need to obtain a Denver Special Event Sales Tax License
-          before they begin selling.
+          All vendors in the Merch Perch, Artist Alley, and Dealers After Dark will need to obtain a Denver Special
+          Event Sales Tax License before they begin selling.
           <!-- TODO: link to the Denver Special Event Sales Tax License form -->
         </li>
-        <li>Power is not provided for free but will be available for purchase through the Venue’s AV company.</li>
+        <li>
+          Power is not provided for free but will be available for purchase (in the Merch Perch and Dealers After Dark
+          only) through the Venue’s AV company.
+        </li>
       </ul>
 
       <h3>Merch Perch</h3>
       <ul>
         <li>
-          The space provided is 6’ x 6’. This space includes two chairs and one 6’ wide table which can be arranged at
-          the dealer’s preference or removed if needed.
-          <!-- TODO: statement on height restriction of displays -->
+          The space provided for full tables is 6’ x 6’. This space includes two chairs and one 6’ wide table which can
+          be arranged at the dealer’s preference or removed if needed. Each half-table is 3’ wide and comes with one
+          chair; as the table is shared, it cannot be removed.
         </li>
       </ul>
 
@@ -134,7 +147,29 @@ import Card from 'primevue/card'
         <li>
           Each half-table is 3’ wide and comes with one chair. These tables are aligned along a wall and as such tables
           cannot repositioned. Each half table includes one chair.
-          <!-- TODO: statement on height restriction of displays -->
+        </li>
+        <li>
+          Artist Alley consists of two shifts on Friday and Saturday and one shift on Sunday, so that you can customize
+          your schedule over the course of the con and still enjoy the events you want to without giving up the chance
+          to sell your art. For the morning shift, you can begin setup at 8am, with opening at 9am; this shift ends at
+          2pm, and you are expected to have taken down your displays and cleared the space by 2:30pm so that the
+          afternoon shift has time to set up before opening at 3pm. If you anticipate needing accommodations/assistance
+          from staff in accomplishing this, let us know in your application so that we can plan accordingly.
+        </li>
+      </ul>
+
+      <h3>Dealers After Dark</h3>
+      <ul>
+        <li>
+          The space provided for full tables is 6’ x 6’. This space includes two chairs and one 6’ wide table which can
+          be arranged at the dealer’s preference or removed if needed. Each half-table is 3’ wide and comes with one
+          chair; as the table is shared, it cannot be removed.
+        </li>
+        <li>
+          This vending area is physically separate from the Merch Perch and is open from 7pm to 11pm, Friday and
+          Saturday nights. It requires full setup each night (starting at 6pm) and full tear-down and removal of all
+          materials each night (to be finished by midnight) as the space is not secured overnight and is used for other
+          events during the day.
         </li>
       </ul>
     </template>
