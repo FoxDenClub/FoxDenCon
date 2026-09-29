@@ -24,7 +24,7 @@ import Card from 'primevue/card'
           </template>
           <template #content>
             <img src="/icon-attending.png" class="h-72 mx-auto" />
-            <p>As an initiate of the Cult of the Fox you receive:</p>
+            <p>As an Initiate of the Cult of the Fox you receive:</p>
             <ul class="list-disc">
               <li>Entry to the Con Hotel at a discounted price of $120 a night! (until con block is full)</li>
               <li>Access to all events!</li>
@@ -66,7 +66,7 @@ import Card from 'primevue/card'
           </template>
           <template #content>
             <img src="/icon-patron.png" class="h-72 mx-auto" />
-            <p>As an adept you'll receive:</p>
+            <p>As an elder you'll receive:</p>
             <ul class="list-disc">
               <li>All perks of the Initiate tier</li>
               <li>All perks of the Adept tier</li>

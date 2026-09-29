@@ -16,7 +16,7 @@ import Card from 'primevue/card'
       <div class="grid grid-flow-row grid-cols-5 gap-4 gap-y-8 justify-around mt-16">
         <div class="row-span-1 col-span-1"><img src="/icon-dj.png" /></div>
         <div class="row-span-1 col-span-4">
-          <h4>DJs</h4>
+          <h4>DJs and Musicians</h4>
           <p>
             Can you spin Music? Let's get people dancing!
             <a
@@ -25,10 +25,6 @@ import Card from 'primevue/card'
               >Apply to get spinning at the nightly dances!</a
             >
           </p>
-        </div>
-        <div class="row-span-1 col-span-1"><img src="/icon-dj.png" /></div>
-        <div class="row-span-1 col-span-4">
-          <h4>Musicians</h4>
           <p>
             Are you a musician looking to perform in a concert or perhaps live during one of our nightly dances?
             <a
@@ -38,12 +34,13 @@ import Card from 'primevue/card'
             </a>
           </p>
         </div>
+
         <div class="row-span-1 col-span-1"><img src="/icon-artists.png" /></div>
         <div class="row-span-1 col-span-4">
-          <h4>Artists</h4>
+          <h4>Con Book Submissions</h4>
           <p>
-            It takes a lot of art to make a good convention truly feel like home and we have a strict no gen-AI policy,
-            so help us make it a beautiful event while keeping everything furry-made!
+            The Con Book will feature artwork of all kinds from attendees like you! Do you enjoy writing? Drawing?
+            Photography? Crafting? Submit things you'd like to show off here!
           </p>
         </div>
         <div class="row-span-1 col-span-1"><img src="/icon-panels.png" /></div>
@@ -71,10 +68,11 @@ import Card from 'primevue/card'
         </div>
         <div class="row-span-1 col-span-1"><img src="/icon-staff.png" /></div>
         <div class="row-span-1 col-span-4">
-          <h4>General Staff</h4>
+          <h4>Volunteers, Staff, and Artists</h4>
           <p>
             We need all kinds of general staff! Checking badges, running supplies, all the fun stuff that makes cons
-            work!
+            work! We also need artists! It takes a lot of art to make a good convention truly feel like home and we have
+            a strict no gen-AI policy, so help us make it a beautiful event while keeping everything furry-made!
           </p>
           <p>
             <a

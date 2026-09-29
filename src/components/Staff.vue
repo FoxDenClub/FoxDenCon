@@ -166,6 +166,11 @@ import Card from 'primevue/card'
           <h5>Staff Artist</h5>
           <p><a href="https://zakodiak.carrd.co">https://zakodiak.carrd.co</a></p>
         </div>
+        <div>
+          <img src="/staff/Rachel.jpeg" class="w-64 mx-auto" />
+          <h3>Rachel Opossum</h3>
+          <h5>Moderator</h5>
+        </div>
       </div>
     </template>
   </Card>
