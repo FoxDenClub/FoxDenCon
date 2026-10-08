@@ -4,12 +4,10 @@ import Header from './components/Header.vue'
 </script>
 
 <template>
-  <nav class="fixed w-full z-50">
-    <Header />
-    <NavHeader />
-  </nav>
+  <Header />
+  <NavHeader />
 
-  <div class="mt-48 min-xl:mx-48 min-2xl:mx-72">
+  <div class="min-xl:mx-48 min-2xl:mx-72">
     <RouterView />
   </div>
   <!--  <NavFooter />-->

@@ -4,7 +4,7 @@ import Socials from './Socials.vue'
 
 <template>
   <header
-    class="flex flex-row flex-wrap items-center justify-between h-32 px-2 bg-primary-900 text-primary-50"
+    class="flex flex-row flex-wrap items-center justify-between w-full z-50 h-32 px-2 bg-primary-900 text-primary-50"
     id="header"
   >
     <section class="w-96 max-sm:mx-auto">

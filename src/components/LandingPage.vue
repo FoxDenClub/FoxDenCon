@@ -15,7 +15,6 @@ const taylAndPixyVisible = ref(false)
 
 <template>
   <Card>
-    <template #title></template>
     <template #content>
       <!-- TODO Banner goes here?? Or maybe he means the top nav banner -->
 
