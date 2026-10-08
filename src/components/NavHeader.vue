@@ -6,7 +6,7 @@ const items = ref([
   {
     label: 'Home',
     route: '/',
-    icon: 'pi pi-home',
+    // icon: 'pi pi-home',
   },
   {
     label: 'About',
@@ -40,7 +40,7 @@ const scrollToTop = () => window.scrollTo(0, 0)
   >
     <template #start>
       <RouterLink to="/" @click.native="scrollToTop">
-        <!-- TODO put logo here -->
+        <img src="/logo.png" class="h-12" alt="Home" />
         <!--        <img src="/logo.png" class="h-8" alt="Home" />-->
       </RouterLink>
     </template>
