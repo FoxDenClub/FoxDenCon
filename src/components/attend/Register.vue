@@ -66,7 +66,7 @@ import Card from 'primevue/card'
           </template>
           <template #content>
             <img src="/icon-patron.png" class="h-72 mx-auto" />
-            <p>As an elder you'll receive:</p>
+            <p>As an Elder you'll receive:</p>
             <ul class="list-disc">
               <li>All perks of the Initiate tier</li>
               <li>All perks of the Adept tier</li>

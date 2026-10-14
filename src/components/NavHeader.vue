@@ -11,7 +11,7 @@ const items = ref([
   {
     label: 'About',
     items: [
-      { label: 'About', route: '/about' },
+      { label: 'Theme and Club', route: '/about' },
       { label: 'Staff', route: '/staff' },
     ],
   },

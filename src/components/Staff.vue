@@ -140,7 +140,6 @@ import Card from 'primevue/card'
           <img src="/staff/Comix.jpg" class="w-64 mx-auto" />
           <h3>Comix</h3>
           <h5>Staff Artist</h5>
-          <p><a href="https://linktr.ee/comixthesaber">https://linktr.ee/comixthesaber</a></p>
           <p>
             <a href="https://linktr.ee/comixthesaber" target="_blank">https://linktr.ee/comixthesaber</a>
           </p>
