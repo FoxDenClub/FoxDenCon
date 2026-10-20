@@ -155,7 +155,7 @@ import Card from 'primevue/card'
           <h5>Lighting Lead</h5>
         </div>
         <div>
-          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
+          <img src="/staff/Fraye.jpg" class="w-64 mx-auto" />
           <h3>Fraye</h3>
           <h5>Medical Liason</h5>
         </div>
