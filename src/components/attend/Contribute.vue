@@ -56,8 +56,19 @@ import Card from 'primevue/card'
         <div class="row-span-1 col-span-4">
           <h4>Dancers</h4>
           <p>
-            Wanna strut your stuff and show off your skills? Apply to enter the Fursuit Dance Competition or the
-            Head-to-Head Dance-off!
+            Wanna strut your stuff and show off your skills?
+            <a href="https://forms.gle/eYuC2yrpH2thnKNq8" target="_blank"
+              >Apply to enter the Fursuit Dance Competition</a
+            >
+            or the Head-to-Head Dance-off!
+          </p>
+          <p>
+            <a
+              href="https://docs.google.com/document/d/10civtbzQjK3f3Ffe9MslfmUccc422rrPHWxa3X3GdHM/edit?usp=sharing"
+              target="_blank"
+            >
+              Rules and Criteria
+            </a>
           </p>
         </div>
         <div class="row-span-1 col-span-1"><img src="/icon-dealers.png" /></div>
