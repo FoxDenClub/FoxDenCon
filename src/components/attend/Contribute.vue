@@ -76,6 +76,11 @@ import Card from 'primevue/card'
           <h4>Dealers</h4>
           <p>Looking to sell some Merch or perhaps draw some art in the Artist Alley? This is the place to do it!</p>
           <p><RouterLink to="/vending-policies">Vending Policies</RouterLink></p>
+          <p>
+            To apply to sell at Fox Den Con, go to
+            <a href="https://reg.foxdenclub.org/" target="_blank">reg.foxdenclub.org</a>, create an account, and apply
+            in the "dealer" section.
+          </p>
         </div>
         <div class="row-span-1 col-span-1"><img src="/icon-staff.png" /></div>
         <div class="row-span-1 col-span-4">

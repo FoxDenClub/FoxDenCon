@@ -113,11 +113,6 @@ import Card from 'primevue/card'
         </div>
         <div>
           <img src="/staff/placeholder.png" class="w-64 mx-auto" />
-          <h3>Calypso</h3>
-          <h5>Staff Artist</h5>
-        </div>
-        <div>
-          <img src="/staff/placeholder.png" class="w-64 mx-auto" />
           <h3>Roxy</h3>
           <h5>Staff Senior Artist</h5>
         </div>
