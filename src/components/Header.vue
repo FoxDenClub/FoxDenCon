@@ -3,9 +3,9 @@ import Socials from './Socials.vue'
 </script>
 
 <template>
-  <div class="bg-primary-900">
+  <div id="mainHeader">
     <header
-      class="flex flex-row flex-wrap items-center justify-between w-full z-50 h-32 px-2 text-primary-50"
+      class="flex flex-row flex-wrap items-center justify-between w-full z-50 h-32 px-2 text-primary-950"
       id="header"
     >
       <section class="w-96 max-sm:mx-auto">
@@ -20,15 +20,13 @@ import Socials from './Socials.vue'
         <h4>DoubleTree Denver Hotel</h4>
       </section>
     </header>
-    <section class="bg-primary-900 text-primary-50 ml-auto text-right h-8"><Socials /></section>
+    <section class="text-primary-500 ml-auto text-right h-8"><Socials /></section>
   </div>
 </template>
 
 <style scoped>
-#header {
-}
-#header {
-  //background: url('/foxdenconposter.png') 0 0 no-repeat;
+#mainHeader {
+  background: url('/banner.png') center 0 no-repeat;
 }
 h1 {
   margin-bottom: 0;

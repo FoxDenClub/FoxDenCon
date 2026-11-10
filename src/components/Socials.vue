@@ -13,7 +13,7 @@
     </li>
     <li>
       <a href="https://bsky.app/profile/foxdencon.bsky.social" target="_blank"
-        ><img src="/bsky.png" class="h-4 inline align-baseline" alt="bluesky"
+        ><img src="/bsky2.png" class="h-4 inline align-baseline" alt="bluesky"
       /></a>
     </li>
     <li>
@@ -35,6 +35,6 @@ li {
 }
 
 a {
-  color: var(--color-primary-50);
+  color: var(--color-primary-950);
 }
 </style>
