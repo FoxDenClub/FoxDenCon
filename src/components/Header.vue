@@ -25,8 +25,15 @@ import Socials from './Socials.vue'
 </template>
 
 <style scoped>
-#mainHeader {
-  background: url('/banner2.jpg') center 0 no-repeat;
+@media (width <= 1568px) {
+  #mainHeader {
+    background: url('/banner2.jpg') center 0 no-repeat;
+  }
+}
+@media (width > 1568px) {
+  #mainHeader {
+    background: url('/banner2.jpg') 0 0 repeat-x;
+  }
 }
 h1 {
   margin-bottom: 0;
